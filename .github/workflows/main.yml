@@ -1,20 +1,4 @@
-name: Run My Code
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  run-code:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-    - name: Run Python script
-      run: python my_script.py
-
-name: Run My Code
+name: Main
 
 on:
   push:
