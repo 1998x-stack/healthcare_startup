@@ -13,5 +13,5 @@ jobs:
       uses: actions/checkout@v2
     - name: Run Python scripts
       run: |
-        python ../../medician_copy.py 
-        python ../../hospital_info_copy.py
+        python medician_copy.py 
+        python hospital_info_copy.py
