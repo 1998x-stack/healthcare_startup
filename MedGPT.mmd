@@ -1,0 +1,12 @@
+graph LR
+A[用户注册与登录页面] --> B[问题输入与选择页面]
+B --> C[聊天界面页面]
+C --> D[医院与医生推荐页面]
+C --> E[用户信息与档案管理页面]
+D --> F[查看医生详情]
+E --> G[查看档案详情]
+
+A -->|调用云函数getUserInfo| H[云函数: getUserInfo]
+C -->|调用云函数getChatGPTResponse| I[云函数: getChatGPTResponse]
+E -->|调用云函数getMedicalRecords| J[云函数: getMedicalRecords]
+E -->|调用云函数deleteMedicalRecord| K[云函数: deleteMedicalRecord]

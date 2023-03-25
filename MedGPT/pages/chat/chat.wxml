@@ -1,0 +1,20 @@
+<view class="container">
+  <scroll-view scroll-y="true" class="chat-section" bindscrolltolower="scrollToLower">
+    <view wx:for="{{messages}}" wx:key="index">
+  <view class="{{item.sender}}-container">
+    <text class="{{item.sender}}-timestamp">{{item.timestamp | formatTime}}</text>
+    <text class="{{item.sender}}-message">{{item.content}}</text>
+  </view>
+</view>
+
+  </scroll-view>
+  <view class="input-section">
+    <input
+      class="message-input"
+      value="{{inputValue}}"
+      placeholder="请输入您的问题"
+      bindinput="onInputChange"
+      bindconfirm="onConfirm"
+    />
+  </view>
+</view>

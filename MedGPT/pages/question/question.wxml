@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="input-section">
+    <input
+      class="question-input"
+      value="{{inputValue}}"
+      placeholder="请输入您的问题"
+      bindinput="onInputChange"
+      bindconfirm="onConfirm"
+    />
+  </view>
+  <view class="suggestion-section">
+    <view wx:for="{{suggestedQuestions}}" wx:key="index" data-index="{{index}}" bindtap="onSuggestionTap">
+      <text>{{item}}</text>
+    </view>
+  </view>
+</view>

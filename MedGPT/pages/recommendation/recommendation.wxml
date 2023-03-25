@@ -1,0 +1,11 @@
+<view class="doctor-list">
+  <view wx:for="{{doctorList}}" wx:key="id" class="doctor-item">
+    <view class="doctor-info">
+      <text class="doctor-name">{{item.name}}</text>
+      <text class="doctor-title">{{item.title}}</text>
+    </view>
+    <view class="doctor-hospital">{{item.hospital}}</view>
+    <view class="doctor-department">{{item.department}}</view>
+  </view>
+</view>
+

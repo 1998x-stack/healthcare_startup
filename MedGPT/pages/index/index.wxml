@@ -1,0 +1,6 @@
+<view class="container">
+  <button wx:if="{{!userInfo}}" open-type="getUserProfile" bindgetuserprofile="onGetUserProfile">登录/注册</button>
+  <view wx:else>
+    <!-- 用户已登录，显示其他功能入口 -->
+  </view>
+</view>

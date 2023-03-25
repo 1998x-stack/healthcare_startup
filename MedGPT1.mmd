@@ -1,0 +1,10 @@
+graph LR
+A[login()] --> B[submitQuestion() / selectQuestion()]
+B --> C[sendMessage()]
+C --> D[selectHospital() / selectDepartment() / selectDoctor()]
+C --> E[viewMedicalRecord() / deleteMedicalRecord()]
+
+A -->|调用云函数getUserInfo| H[云函数: getUserInfo]
+C -->|调用云函数getChatGPTResponse| I[云函数: getChatGPTResponse]
+E -->|调用云函数getMedicalRecords| J[云函数: getMedicalRecords]
+E -->|调用云函数deleteMedicalRecord| K[云函数: deleteMedicalRecord]

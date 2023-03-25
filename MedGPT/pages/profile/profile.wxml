@@ -1,0 +1,12 @@
+<view class="user-info">
+  <text class="user-name">{{userInfo.name}}</text>
+  <text class="user-gender">{{userInfo.gender}}</text>
+  <text class="user-age">{{userInfo.age}} 岁</text>
+</view>
+<view class="medical-record-list">
+  <view wx:for="{{medicalRecords}}" wx:key="id" class="medical-record-item">
+    <text class="record-date">{{item.date}}</text>
+    <text class="record-hospital">{{item.hospital}}</text>
+    <text class="record-department">{{item.department}}</text>
+  </view>
+</view>
