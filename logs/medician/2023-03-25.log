@@ -1,1 +1,754 @@
 2023-03-25 20:34:54 JSON 文件扬州中宝药业 氨力农注射液.json 已成功保存到 ./data/扬州中宝药业 氨力农注射液.json
+2023-03-25 20:47:52 JSON 文件扬州中宝药业 氨力农注射液.json 已成功保存到 ./data/medician/扬州中宝药业 氨力农注射液.json
+2023-03-25 20:47:58 JSON 文件葵花药业 地高辛片.json 已成功保存到 ./data/medician/葵花药业 地高辛片.json
+2023-03-25 20:47:59 JSON 文件北京华润高科 地高辛酏剂.json 已成功保存到 ./data/medician/北京华润高科 地高辛酏剂.json
+2023-03-25 20:48:02 JSON 文件西南药业 地高辛注射液.json 已成功保存到 ./data/medician/西南药业 地高辛注射液.json
+2023-03-25 20:48:03 JSON 文件步长 脑心通胶囊.json 已成功保存到 ./data/medician/步长 脑心通胶囊.json
+2023-03-25 20:48:06 JSON 文件鲁南力康.json 已成功保存到 ./data/medician/鲁南力康.json
+2023-03-25 20:48:07 JSON 文件亚旭.json 已成功保存到 ./data/medician/亚旭.json
+2023-03-25 20:48:10 JSON 文件舒必莱特.json 已成功保存到 ./data/medician/舒必莱特.json
+2023-03-25 20:48:11 JSON 文件奥万路.json 已成功保存到 ./data/medician/奥万路.json
+2023-03-25 20:48:13 JSON 文件宁立平.json 已成功保存到 ./data/medician/宁立平.json
+2023-03-25 20:48:15 JSON 文件联环尔定.json 已成功保存到 ./data/medician/联环尔定.json
+2023-03-25 20:48:17 JSON 文件可苹.json 已成功保存到 ./data/medician/可苹.json
+2023-03-25 20:48:19 JSON 文件伏络清.json 已成功保存到 ./data/medician/伏络清.json
+2023-03-25 20:48:21 JSON 文件伲福达.json 已成功保存到 ./data/medician/伲福达.json
+2023-03-25 20:48:23 JSON 文件欣然.json 已成功保存到 ./data/medician/欣然.json
+2023-03-25 20:48:32 JSON 文件吉加.json 已成功保存到 ./data/medician/吉加.json
+2023-03-25 20:48:35 JSON 文件立迈 杏灵滴丸.json 已成功保存到 ./data/medician/立迈 杏灵滴丸.json
+2023-03-25 20:48:39 JSON 文件洛汀新.json 已成功保存到 ./data/medician/洛汀新.json
+2023-03-25 20:48:40 JSON 文件汕头金石 辛伐他汀片.json 已成功保存到 ./data/medician/汕头金石 辛伐他汀片.json
+2023-03-25 20:48:45 JSON 文件泰嘉.json 已成功保存到 ./data/medician/泰嘉.json
+2023-03-25 20:48:48 JSON 文件维尔亚.json 已成功保存到 ./data/medician/维尔亚.json
+2023-03-25 20:48:49 JSON 文件无锡曙辉药业 角鲨烯胶丸.json 已成功保存到 ./data/medician/无锡曙辉药业 角鲨烯胶丸.json
+2023-03-25 20:48:51 JSON 文件鲁宁 辛伐他汀片.json 已成功保存到 ./data/medician/鲁宁 辛伐他汀片.json
+2023-03-25 20:48:56 JSON 文件丽珠奇乐.json 已成功保存到 ./data/medician/丽珠奇乐.json
+2023-03-25 20:48:58 JSON 文件齐迈星.json 已成功保存到 ./data/medician/齐迈星.json
+2023-03-25 20:49:01 JSON 文件赛乐欣.json 已成功保存到 ./data/medician/赛乐欣.json
+2023-03-25 20:49:02 JSON 文件广东安诺 阿奇霉素分散片.json 已成功保存到 ./data/medician/广东安诺 阿奇霉素分散片.json
+2023-03-25 20:49:05 JSON 文件欣匹特.json 已成功保存到 ./data/medician/欣匹特.json
+2023-03-25 20:49:06 JSON 文件依诺达.json 已成功保存到 ./data/medician/依诺达.json
+2023-03-25 20:49:08 JSON 文件泰力特.json 已成功保存到 ./data/medician/泰力特.json
+2023-03-25 20:49:11 JSON 文件扬子江药业 阿奇霉素片.json 已成功保存到 ./data/medician/扬子江药业 阿奇霉素片.json
+2023-03-25 20:49:14 JSON 文件亚邦 阿奇霉素片.json 已成功保存到 ./data/medician/亚邦 阿奇霉素片.json
+2023-03-25 20:49:17 JSON 文件辅仁 阿奇霉素片.json 已成功保存到 ./data/medician/辅仁 阿奇霉素片.json
+2023-03-25 20:49:19 JSON 文件江苏长江 阿奇霉素胶囊.json 已成功保存到 ./data/medician/江苏长江 阿奇霉素胶囊.json
+2023-03-25 20:49:21 JSON 文件杭州苏泊尔南洋药业 阿奇霉素胶囊.json 已成功保存到 ./data/medician/杭州苏泊尔南洋药业 阿奇霉素胶囊.json
+2023-03-25 20:49:23 JSON 文件长江药业 阿奇霉素胶囊.json 已成功保存到 ./data/medician/长江药业 阿奇霉素胶囊.json
+2023-03-25 20:49:24 JSON 文件山东方明 阿奇霉素胶囊.json 已成功保存到 ./data/medician/山东方明 阿奇霉素胶囊.json
+2023-03-25 20:49:26 JSON 文件华润双鹤利民药业(济南) 阿奇霉素胶囊.json 已成功保存到 ./data/medician/华润双鹤利民药业(济南) 阿奇霉素胶囊.json
+2023-03-25 20:49:27 JSON 文件葵花药业 阿奇霉素胶囊.json 已成功保存到 ./data/medician/葵花药业 阿奇霉素胶囊.json
+2023-03-25 20:49:31 JSON 文件世贸天阶 阿奇霉素胶囊.json 已成功保存到 ./data/medician/世贸天阶 阿奇霉素胶囊.json
+2023-03-25 20:49:34 JSON 文件江苏祥瑞 阿奇霉素分散片.json 已成功保存到 ./data/medician/江苏祥瑞 阿奇霉素分散片.json
+2023-03-25 20:49:35 JSON 文件海口奇力 阿奇霉素分散片.json 已成功保存到 ./data/medician/海口奇力 阿奇霉素分散片.json
+2023-03-25 20:49:37 JSON 文件陕西渭南华仁 阿奇霉素分散片.json 已成功保存到 ./data/medician/陕西渭南华仁 阿奇霉素分散片.json
+2023-03-25 20:49:39 JSON 文件奥司惠.json 已成功保存到 ./data/medician/奥司惠.json
+2023-03-25 20:49:41 JSON 文件法能.json 已成功保存到 ./data/medician/法能.json
+2023-03-25 20:49:42 JSON 文件可普芬.json 已成功保存到 ./data/medician/可普芬.json
+2023-03-25 20:49:43 JSON 文件顺峰康奇.json 已成功保存到 ./data/medician/顺峰康奇.json
+2023-03-25 20:49:44 JSON 文件苏爽.json 已成功保存到 ./data/medician/苏爽.json
+2023-03-25 20:49:48 JSON 文件益欣雪.json 已成功保存到 ./data/medician/益欣雪.json
+2023-03-25 20:49:49 JSON 文件信合援生制药 阿苯片.json 已成功保存到 ./data/medician/信合援生制药 阿苯片.json
+2023-03-25 20:49:51 JSON 文件中智 调经止痛胶囊.json 已成功保存到 ./data/medician/中智 调经止痛胶囊.json
+2023-03-25 20:49:53 JSON 文件江西药都仁和 调经止痛胶囊.json 已成功保存到 ./data/medician/江西药都仁和 调经止痛胶囊.json
+2023-03-25 20:49:54 JSON 文件江苏聚荣 温胃舒胶囊.json 已成功保存到 ./data/medician/江苏聚荣 温胃舒胶囊.json
+2023-03-25 20:49:55 JSON 文件长春银诺克 调经止痛胶囊.json 已成功保存到 ./data/medician/长春银诺克 调经止痛胶囊.json
+2023-03-25 20:49:57 JSON 文件山西太原 阿苯片.json 已成功保存到 ./data/medician/山西太原 阿苯片.json
+2023-03-25 20:49:58 JSON 文件药都制药 阿苯片.json 已成功保存到 ./data/medician/药都制药 阿苯片.json
+2023-03-25 20:49:59 JSON 文件伯基.json 已成功保存到 ./data/medician/伯基.json
+2023-03-25 20:50:00 JSON 文件温胃舒 温胃舒胶囊.json 已成功保存到 ./data/medician/温胃舒 温胃舒胶囊.json
+2023-03-25 20:50:01 JSON 文件北京曙光 阿苯片.json 已成功保存到 ./data/medician/北京曙光 阿苯片.json
+2023-03-25 20:50:02 JSON 文件甘肃兰药 阿苯片.json 已成功保存到 ./data/medician/甘肃兰药 阿苯片.json
+2023-03-25 20:50:03 JSON 文件大同利群 阿苯片.json 已成功保存到 ./data/medician/大同利群 阿苯片.json
+2023-03-25 20:50:04 JSON 文件陕西渭南华仁 温胃舒胶囊.json 已成功保存到 ./data/medician/陕西渭南华仁 温胃舒胶囊.json
+2023-03-25 20:50:06 JSON 文件江苏康缘 调经止痛片.json 已成功保存到 ./data/medician/江苏康缘 调经止痛片.json
+2023-03-25 20:50:07 JSON 文件司尔利.json 已成功保存到 ./data/medician/司尔利.json
+2023-03-25 20:50:09 JSON 文件鄂东氧气制造 阿苯片.json 已成功保存到 ./data/medician/鄂东氧气制造 阿苯片.json
+2023-03-25 20:50:11 JSON 文件中山可可康制药 调经止痛片.json 已成功保存到 ./data/medician/中山可可康制药 调经止痛片.json
+2023-03-25 20:50:11 JSON 文件华润双鹤 阿苯片.json 已成功保存到 ./data/medician/华润双鹤 阿苯片.json
+2023-03-25 20:50:12 JSON 文件通化金马 调经止痛片.json 已成功保存到 ./data/medician/通化金马 调经止痛片.json
+2023-03-25 20:50:13 JSON 文件黑龙江鼎恒升 阿苯片.json 已成功保存到 ./data/medician/黑龙江鼎恒升 阿苯片.json
+2023-03-25 20:50:15 JSON 文件贵州信邦 阿司匹林缓释胶囊.json 已成功保存到 ./data/medician/贵州信邦 阿司匹林缓释胶囊.json
+2023-03-25 20:50:16 JSON 文件辽源誉隆亚东 调经止痛片.json 已成功保存到 ./data/medician/辽源誉隆亚东 调经止痛片.json
+2023-03-25 20:50:17 JSON 文件协美达.json 已成功保存到 ./data/medician/协美达.json
+2023-03-25 20:50:18 JSON 文件吉林亚泰明星 调经止痛片.json 已成功保存到 ./data/medician/吉林亚泰明星 调经止痛片.json
+2023-03-25 20:50:20 JSON 文件黑龙江百泰 阿苯片.json 已成功保存到 ./data/medician/黑龙江百泰 阿苯片.json
+2023-03-25 20:50:23 JSON 文件江西海尔思 调经止痛片.json 已成功保存到 ./data/medician/江西海尔思 调经止痛片.json
+2023-03-25 20:50:24 JSON 文件江西诚志永丰 桂附地黄口服液.json 已成功保存到 ./data/medician/江西诚志永丰 桂附地黄口服液.json
+2023-03-25 20:50:27 JSON 文件塞宁.json 已成功保存到 ./data/medician/塞宁.json
+2023-03-25 20:50:28 JSON 文件四川德峰药业 阿苯片.json 已成功保存到 ./data/medician/四川德峰药业 阿苯片.json
+2023-03-25 20:50:29 JSON 文件成都永康 温胃舒片.json 已成功保存到 ./data/medician/成都永康 温胃舒片.json
+2023-03-25 20:50:32 JSON 文件华润赛科 维生素E烟酸酯胶囊.json 已成功保存到 ./data/medician/华润赛科 维生素E烟酸酯胶囊.json
+2023-03-25 20:50:33 JSON 文件甘肃扶正 阿苯片.json 已成功保存到 ./data/medician/甘肃扶正 阿苯片.json
+2023-03-25 20:50:34 JSON 文件江西川奇 温胃舒片.json 已成功保存到 ./data/medician/江西川奇 温胃舒片.json
+2023-03-25 20:50:37 JSON 文件湖南九典 阿苯片.json 已成功保存到 ./data/medician/湖南九典 阿苯片.json
+2023-03-25 20:50:39 JSON 文件巴米尔.json 已成功保存到 ./data/medician/巴米尔.json
+2023-03-25 20:50:41 JSON 文件广州白云山光华 维生素E烟酸酯胶囊.json 已成功保存到 ./data/medician/广州白云山光华 维生素E烟酸酯胶囊.json
+2023-03-25 20:50:43 JSON 文件欣动.json 已成功保存到 ./data/medician/欣动.json
+2023-03-25 20:50:45 JSON 文件西安利君 阿苯片.json 已成功保存到 ./data/medician/西安利君 阿苯片.json
+2023-03-25 20:50:46 JSON 文件山东山大康诺 阿苯片.json 已成功保存到 ./data/medician/山东山大康诺 阿苯片.json
+2023-03-25 20:50:47 JSON 文件达维平.json 已成功保存到 ./data/medician/达维平.json
+2023-03-25 20:50:48 JSON 文件太林.json 已成功保存到 ./data/medician/太林.json
+2023-03-25 20:50:50 JSON 文件云南白药 阿司匹林片.json 已成功保存到 ./data/medician/云南白药 阿司匹林片.json
+2023-03-25 20:50:52 JSON 文件北京曙光 阿司匹林片.json 已成功保存到 ./data/medician/北京曙光 阿司匹林片.json
+2023-03-25 20:50:53 JSON 文件湖北太子 固本咳喘胶囊.json 已成功保存到 ./data/medician/湖北太子 固本咳喘胶囊.json
+2023-03-25 20:50:54 JSON 文件华润双鹤 阿司匹林片.json 已成功保存到 ./data/medician/华润双鹤 阿司匹林片.json
+2023-03-25 20:50:56 JSON 文件连翘败毒丸.json 已成功保存到 ./data/medician/连翘败毒丸.json
+2023-03-25 20:50:57 JSON 文件吉林金恒 阿苯糖丸.json 已成功保存到 ./data/medician/吉林金恒 阿苯糖丸.json
+2023-03-25 20:50:58 JSON 文件秦皇岛大恩药业 固本咳喘胶囊.json 已成功保存到 ./data/medician/秦皇岛大恩药业 固本咳喘胶囊.json
+2023-03-25 20:50:59 JSON 文件上海北杰 阿苯糖丸.json 已成功保存到 ./data/medician/上海北杰 阿苯糖丸.json
+2023-03-25 20:51:01 JSON 文件辽源誉隆亚东 阿苯糖丸.json 已成功保存到 ./data/medician/辽源誉隆亚东 阿苯糖丸.json
+2023-03-25 20:51:02 JSON 文件同济堂 仙灵骨葆胶囊.json 已成功保存到 ./data/medician/同济堂 仙灵骨葆胶囊.json
+2023-03-25 20:51:04 JSON 文件云南特安呐 阿司匹林片.json 已成功保存到 ./data/medician/云南特安呐 阿司匹林片.json
+2023-03-25 20:51:10 JSON 文件沈阳康芝 阿司匹林片.json 已成功保存到 ./data/medician/沈阳康芝 阿司匹林片.json
+2023-03-25 20:51:11 JSON 文件康臣药业 阿法骨化醇胶囊.json 已成功保存到 ./data/medician/康臣药业 阿法骨化醇胶囊.json
+2023-03-25 20:51:13 JSON 文件神威药业 萘普生颗粒.json 已成功保存到 ./data/medician/神威药业 萘普生颗粒.json
+2023-03-25 20:51:15 JSON 文件施泰乐.json 已成功保存到 ./data/medician/施泰乐.json
+2023-03-25 20:51:16 JSON 文件同济堂 仙灵骨葆颗粒.json 已成功保存到 ./data/medician/同济堂 仙灵骨葆颗粒.json
+2023-03-25 20:51:17 JSON 文件江西新远健 固本咳喘胶囊.json 已成功保存到 ./data/medician/江西新远健 固本咳喘胶囊.json
+2023-03-25 20:51:18 JSON 文件黑龙江济仁 固本咳喘胶囊.json 已成功保存到 ./data/medician/黑龙江济仁 固本咳喘胶囊.json
+2023-03-25 20:51:20 JSON 文件阿西乐.json 已成功保存到 ./data/medician/阿西乐.json
+2023-03-25 20:51:21 JSON 文件同济堂 仙灵骨葆片.json 已成功保存到 ./data/medician/同济堂 仙灵骨葆片.json
+2023-03-25 20:51:22 JSON 文件金桃 固本咳喘胶囊.json 已成功保存到 ./data/medician/金桃 固本咳喘胶囊.json
+2023-03-25 20:51:24 JSON 文件重庆药友 萘普生颗粒.json 已成功保存到 ./data/medician/重庆药友 萘普生颗粒.json
+2023-03-25 20:51:25 JSON 文件制克 固本咳喘胶囊.json 已成功保存到 ./data/medician/制克 固本咳喘胶囊.json
+2023-03-25 20:51:26 JSON 文件沈阳奥吉娜 阿司匹林维生素C泡腾片.json 已成功保存到 ./data/medician/沈阳奥吉娜 阿司匹林维生素C泡腾片.json
+2023-03-25 20:51:30 JSON 文件白云山何济公 阿司匹林栓.json 已成功保存到 ./data/medician/白云山何济公 阿司匹林栓.json
+2023-03-25 20:51:32 JSON 文件立庆.json 已成功保存到 ./data/medician/立庆.json
+2023-03-25 20:51:34 JSON 文件安徽先锋 固本咳喘胶囊.json 已成功保存到 ./data/medician/安徽先锋 固本咳喘胶囊.json
+2023-03-25 20:51:35 JSON 文件江西银涛 固本咳喘胶囊.json 已成功保存到 ./data/medician/江西银涛 固本咳喘胶囊.json
+2023-03-25 20:51:36 JSON 文件石药集团 阿司匹林维生素C肠溶片.json 已成功保存到 ./data/medician/石药集团 阿司匹林维生素C肠溶片.json
+2023-03-25 20:51:37 JSON 文件南京白敬宇 阿司匹林维生素C分散片.json 已成功保存到 ./data/medician/南京白敬宇 阿司匹林维生素C分散片.json
+2023-03-25 20:51:38 JSON 文件杰捷.json 已成功保存到 ./data/medician/杰捷.json
+2023-03-25 20:51:40 JSON 文件倍利.json 已成功保存到 ./data/medician/倍利.json
+2023-03-25 20:51:42 JSON 文件北京同仁堂健康 香砂养胃软胶囊.json 已成功保存到 ./data/medician/北京同仁堂健康 香砂养胃软胶囊.json
+2023-03-25 20:51:47 JSON 文件承德天原药业 香砂养胃颗粒.json 已成功保存到 ./data/medician/承德天原药业 香砂养胃颗粒.json
+2023-03-25 20:51:50 JSON 文件业锐 冠心丹参滴丸.json 已成功保存到 ./data/medician/业锐 冠心丹参滴丸.json
+2023-03-25 20:51:51 JSON 文件湖北诺得胜 归脾膏.json 已成功保存到 ./data/medician/湖北诺得胜 归脾膏.json
+2023-03-25 20:51:53 JSON 文件同仁堂制药厂 香砂养胃颗粒.json 已成功保存到 ./data/medician/同仁堂制药厂 香砂养胃颗粒.json
+2023-03-25 20:51:54 JSON 文件江西民济 归脾合剂.json 已成功保存到 ./data/medician/江西民济 归脾合剂.json
+2023-03-25 20:51:56 JSON 文件泰诺安.json 已成功保存到 ./data/medician/泰诺安.json
+2023-03-25 20:51:57 JSON 文件正大青春宝 归脾合剂.json 已成功保存到 ./data/medician/正大青春宝 归脾合剂.json
+2023-03-25 20:51:58 JSON 文件兰州佛慈 香砂养胃丸(浓缩丸).json 已成功保存到 ./data/medician/兰州佛慈 香砂养胃丸(浓缩丸).json
+2023-03-25 20:52:00 JSON 文件大同卫华 阿酚咖敏片.json 已成功保存到 ./data/medician/大同卫华 阿酚咖敏片.json
+2023-03-25 20:52:02 JSON 文件多多药业 复方氨酚烷胺胶囊.json 已成功保存到 ./data/medician/多多药业 复方氨酚烷胺胶囊.json
+2023-03-25 20:52:03 JSON 文件新和成 归脾颗粒.json 已成功保存到 ./data/medician/新和成 归脾颗粒.json
+2023-03-25 20:52:04 JSON 文件仁和堂药业 阿酚咖敏片.json 已成功保存到 ./data/medician/仁和堂药业 阿酚咖敏片.json
+2023-03-25 20:52:07 JSON 文件大同利群 阿酚咖敏片.json 已成功保存到 ./data/medician/大同利群 阿酚咖敏片.json
+2023-03-25 20:52:10 JSON 文件江西众源 阿胶补血膏.json 已成功保存到 ./data/medician/江西众源 阿胶补血膏.json
+2023-03-25 20:52:12 JSON 文件葵花药业 复方氨酚烷胺胶囊.json 已成功保存到 ./data/medician/葵花药业 复方氨酚烷胺胶囊.json
+2023-03-25 20:52:14 JSON 文件内蒙古大唐药业 阿胶补血膏.json 已成功保存到 ./data/medician/内蒙古大唐药业 阿胶补血膏.json
+2023-03-25 20:52:16 JSON 文件河南新四方 阿胶补血膏.json 已成功保存到 ./data/medician/河南新四方 阿胶补血膏.json
+2023-03-25 20:52:17 JSON 文件轻克 复方氨酚烷胺胶囊.json 已成功保存到 ./data/medician/轻克 复方氨酚烷胺胶囊.json
+2023-03-25 20:52:21 JSON 文件仁和可立克.json 已成功保存到 ./data/medician/仁和可立克.json
+2023-03-25 20:52:21 JSON 文件江西广恩和药业 香砂养胃乳剂.json 已成功保存到 ./data/medician/江西广恩和药业 香砂养胃乳剂.json
+2023-03-25 20:52:23 JSON 文件东阿阿胶 阿胶补血颗粒.json 已成功保存到 ./data/medician/东阿阿胶 阿胶补血颗粒.json
+2023-03-25 20:52:25 JSON 文件欧意 香砂养胃软胶囊.json 已成功保存到 ./data/medician/欧意 香砂养胃软胶囊.json
+2023-03-25 20:52:26 JSON 文件益盛 桂附地黄胶囊.json 已成功保存到 ./data/medician/益盛 桂附地黄胶囊.json
+2023-03-25 20:52:28 JSON 文件霸州华泰堂 复方氨酚烷胺胶囊.json 已成功保存到 ./data/medician/霸州华泰堂 复方氨酚烷胺胶囊.json
+2023-03-25 20:52:29 JSON 文件江西药都仁和 香砂养胃软胶囊.json 已成功保存到 ./data/medician/江西药都仁和 香砂养胃软胶囊.json
+2023-03-25 20:52:31 JSON 文件芙蓉堂 阿胶补血口服液.json 已成功保存到 ./data/medician/芙蓉堂 阿胶补血口服液.json
+2023-03-25 20:52:32 JSON 文件中一 消渴丸.json 已成功保存到 ./data/medician/中一 消渴丸.json
+2023-03-25 20:52:34 JSON 文件泰克.json 已成功保存到 ./data/medician/泰克.json
+2023-03-25 20:52:36 JSON 文件河南新四方 阿胶补血口服液.json 已成功保存到 ./data/medician/河南新四方 阿胶补血口服液.json
+2023-03-25 20:52:37 JSON 文件福寿堂 阿胶补血口服液.json 已成功保存到 ./data/medician/福寿堂 阿胶补血口服液.json
+2023-03-25 20:52:38 JSON 文件浙江医药 阿司匹林锌胶囊.json 已成功保存到 ./data/medician/浙江医药 阿司匹林锌胶囊.json
+2023-03-25 20:52:40 JSON 文件江西济民可信 阿胶三宝膏.json 已成功保存到 ./data/medician/江西济民可信 阿胶三宝膏.json
+2023-03-25 20:52:42 JSON 文件亚宝药业 氨茶碱缓释片.json 已成功保存到 ./data/medician/亚宝药业 氨茶碱缓释片.json
+2023-03-25 20:52:44 JSON 文件东阿阿胶 阿胶三宝膏.json 已成功保存到 ./data/medician/东阿阿胶 阿胶三宝膏.json
+2023-03-25 20:52:46 JSON 文件烟台鲁银 氨茶碱缓释片.json 已成功保存到 ./data/medician/烟台鲁银 氨茶碱缓释片.json
+2023-03-25 20:52:48 JSON 文件奇正 消痛贴膏.json 已成功保存到 ./data/medician/奇正 消痛贴膏.json
+2023-03-25 20:52:49 JSON 文件速力菲.json 已成功保存到 ./data/medician/速力菲.json
+2023-03-25 20:52:51 JSON 文件白求恩医科 氨茶碱缓释片.json 已成功保存到 ./data/medician/白求恩医科 氨茶碱缓释片.json
+2023-03-25 20:52:52 JSON 文件贝希.json 已成功保存到 ./data/medician/贝希.json
+2023-03-25 20:52:54 JSON 文件修正药业 氨茶碱缓释片.json 已成功保存到 ./data/medician/修正药业 氨茶碱缓释片.json
+2023-03-25 20:52:56 JSON 文件卡博平.json 已成功保存到 ./data/medician/卡博平.json
+2023-03-25 20:52:58 JSON 文件长春长红 氨苯蝶啶氢氯噻嗪片.json 已成功保存到 ./data/medician/长春长红 氨苯蝶啶氢氯噻嗪片.json
+2023-03-25 20:52:59 JSON 文件辽源百康 氨苯蝶啶氢氯噻嗪片.json 已成功保存到 ./data/medician/辽源百康 氨苯蝶啶氢氯噻嗪片.json
+2023-03-25 20:53:01 JSON 文件速力菲.json 已成功保存到 ./data/medician/速力菲.json
+2023-03-25 20:53:03 JSON 文件大唐 安坤胶囊.json 已成功保存到 ./data/medician/大唐 安坤胶囊.json
+2023-03-25 20:53:04 JSON 文件选清 硝酸咪康唑软膏.json 已成功保存到 ./data/medician/选清 硝酸咪康唑软膏.json
+2023-03-25 20:53:06 JSON 文件西安太极 安坤胶囊.json 已成功保存到 ./data/medician/西安太极 安坤胶囊.json
+2023-03-25 20:53:07 JSON 文件科特加.json 已成功保存到 ./data/medician/科特加.json
+2023-03-25 20:53:07 JSON 文件大明宫 安坤颗粒.json 已成功保存到 ./data/medician/大明宫 安坤颗粒.json
+2023-03-25 20:53:09 JSON 文件河南天方华中 氨茶碱氯化钠注射液.json 已成功保存到 ./data/medician/河南天方华中 氨茶碱氯化钠注射液.json
+2023-03-25 20:53:11 JSON 文件达克宁.json 已成功保存到 ./data/medician/达克宁.json
+2023-03-25 20:53:12 JSON 文件步长 安坤片.json 已成功保存到 ./data/medician/步长 安坤片.json
+2023-03-25 20:53:15 JSON 文件力生制药 氨茶碱片.json 已成功保存到 ./data/medician/力生制药 氨茶碱片.json
+2023-03-25 20:53:16 JSON 文件江西药都仁和 化积颗粒.json 已成功保存到 ./data/medician/江西药都仁和 化积颗粒.json
+2023-03-25 20:53:17 JSON 文件汕头金石 氨茶碱片.json 已成功保存到 ./data/medician/汕头金石 氨茶碱片.json
+2023-03-25 20:53:18 JSON 文件江西药都仁和 硝酸咪康唑栓.json 已成功保存到 ./data/medician/江西药都仁和 硝酸咪康唑栓.json
+2023-03-25 20:53:21 JSON 文件海南制药 氨茶碱片.json 已成功保存到 ./data/medician/海南制药 氨茶碱片.json
+2023-03-25 20:53:24 JSON 文件达克宁.json 已成功保存到 ./data/medician/达克宁.json
+2023-03-25 20:53:26 JSON 文件山西太原 氨茶碱片.json 已成功保存到 ./data/medician/山西太原 氨茶碱片.json
+2023-03-25 20:53:30 JSON 文件泰诺安.json 已成功保存到 ./data/medician/泰诺安.json
+2023-03-25 20:53:32 JSON 文件金力旺 安神补脑颗粒.json 已成功保存到 ./data/medician/金力旺 安神补脑颗粒.json
+2023-03-25 20:53:33 JSON 文件黒静白宁 氨酚烷胺那敏胶囊.json 已成功保存到 ./data/medician/黒静白宁 氨酚烷胺那敏胶囊.json
+2023-03-25 20:53:35 JSON 文件吉林集安益盛 安神补脑片.json 已成功保存到 ./data/medician/吉林集安益盛 安神补脑片.json
+2023-03-25 20:53:37 JSON 文件吾玫.json 已成功保存到 ./data/medician/吾玫.json
+2023-03-25 20:53:38 JSON 文件大同利群 氨酚烷胺那敏胶囊.json 已成功保存到 ./data/medician/大同利群 氨酚烷胺那敏胶囊.json
+2023-03-25 20:53:39 JSON 文件北京万辉双鹤 氨酚烷胺那敏胶囊.json 已成功保存到 ./data/medician/北京万辉双鹤 氨酚烷胺那敏胶囊.json
+2023-03-25 20:53:41 JSON 文件通化茂祥 安神补脑片.json 已成功保存到 ./data/medician/通化茂祥 安神补脑片.json
+2023-03-25 20:53:42 JSON 文件长春海外 安神补脑片.json 已成功保存到 ./data/medician/长春海外 安神补脑片.json
+2023-03-25 20:53:43 JSON 文件冠沙.json 已成功保存到 ./data/medician/冠沙.json
+2023-03-25 20:53:44 JSON 文件吉林敖东延边 安神补脑软胶囊.json 已成功保存到 ./data/medician/吉林敖东延边 安神补脑软胶囊.json
+2023-03-25 20:53:46 JSON 文件内蒙古大唐药业 黄芪建中丸.json 已成功保存到 ./data/medician/内蒙古大唐药业 黄芪建中丸.json
+2023-03-25 20:53:48 JSON 文件敖东 安神补脑液.json 已成功保存到 ./data/medician/敖东 安神补脑液.json
+2023-03-25 20:53:52 JSON 文件白云山 安神补脑液.json 已成功保存到 ./data/medician/白云山 安神补脑液.json
+2023-03-25 20:53:55 JSON 文件鲁南 安神补脑液.json 已成功保存到 ./data/medician/鲁南 安神补脑液.json
+2023-03-25 20:53:58 JSON 文件聚协昌 安神补心胶囊.json 已成功保存到 ./data/medician/聚协昌 安神补心胶囊.json
+2023-03-25 20:54:01 JSON 文件北京诚济制药 安神补心胶囊.json 已成功保存到 ./data/medician/北京诚济制药 安神补心胶囊.json
+2023-03-25 20:54:02 JSON 文件江苏康缘阳光 黄芪精.json 已成功保存到 ./data/medician/江苏康缘阳光 黄芪精.json
+2023-03-25 20:54:08 JSON 文件安神补心颗粒.json 已成功保存到 ./data/medician/安神补心颗粒.json
+2023-03-25 20:54:11 JSON 文件安阳诺美药业 小儿敷脐止泻散.json 已成功保存到 ./data/medician/安阳诺美药业 小儿敷脐止泻散.json
+2023-03-25 20:54:13 JSON 文件葵花药业 安神补心片.json 已成功保存到 ./data/medician/葵花药业 安神补心片.json
+2023-03-25 20:54:16 JSON 文件石药控股集团河北永丰药业 安神补心片.json 已成功保存到 ./data/medician/石药控股集团河北永丰药业 安神补心片.json
+2023-03-25 20:54:21 JSON 文件同仁堂制药厂 小青龙合剂.json 已成功保存到 ./data/medician/同仁堂制药厂 小青龙合剂.json
+2023-03-25 20:54:24 JSON 文件上海和黄 安神补心丸.json 已成功保存到 ./data/medician/上海和黄 安神补心丸.json
+2023-03-25 20:54:27 JSON 文件广西维威制药 小青龙合剂.json 已成功保存到 ./data/medician/广西维威制药 小青龙合剂.json
+2023-03-25 20:54:30 JSON 文件北京同仁堂天然 安神补心丸.json 已成功保存到 ./data/medician/北京同仁堂天然 安神补心丸.json
+2023-03-25 20:54:31 JSON 文件邯郸制药 安神补心丸.json 已成功保存到 ./data/medician/邯郸制药 安神补心丸.json
+2023-03-25 20:54:33 JSON 文件兰州佛慈 小青龙合剂.json 已成功保存到 ./data/medician/兰州佛慈 小青龙合剂.json
+2023-03-25 20:54:35 JSON 文件广州白云山医药集团白云山何济公制药厂 氯霉素眼膏.json 已成功保存到 ./data/medician/广州白云山医药集团白云山何济公制药厂 氯霉素眼膏.json
+2023-03-25 20:54:36 JSON 文件江西民济 小青龙合剂.json 已成功保存到 ./data/medician/江西民济 小青龙合剂.json
+2023-03-25 20:54:37 JSON 文件辽宁德善药业 八珍袋泡茶.json 已成功保存到 ./data/medician/辽宁德善药业 八珍袋泡茶.json
+2023-03-25 20:54:38 JSON 文件江西诚志永丰 小青龙合剂.json 已成功保存到 ./data/medician/江西诚志永丰 小青龙合剂.json
+2023-03-25 20:54:40 JSON 文件琪宁.json 已成功保存到 ./data/medician/琪宁.json
+2023-03-25 20:54:41 JSON 文件重庆希尔安 八珍袋泡茶.json 已成功保存到 ./data/medician/重庆希尔安 八珍袋泡茶.json
+2023-03-25 20:54:42 JSON 文件秦皇岛大恩药业 小青龙颗粒.json 已成功保存到 ./data/medician/秦皇岛大恩药业 小青龙颗粒.json
+2023-03-25 20:54:44 JSON 文件邯郸制药 小青龙颗粒.json 已成功保存到 ./data/medician/邯郸制药 小青龙颗粒.json
+2023-03-25 20:54:45 JSON 文件河北百善 八珍袋泡茶.json 已成功保存到 ./data/medician/河北百善 八珍袋泡茶.json
+2023-03-25 20:54:48 JSON 文件白马 八珍胶囊.json 已成功保存到 ./data/medician/白马 八珍胶囊.json
+2023-03-25 20:54:50 JSON 文件华润三九 去氢胆酸片.json 已成功保存到 ./data/medician/华润三九 去氢胆酸片.json
+2023-03-25 20:54:52 JSON 文件来婷.json 已成功保存到 ./data/medician/来婷.json
+2023-03-25 20:54:54 JSON 文件可力.json 已成功保存到 ./data/medician/可力.json
+2023-03-25 20:54:57 JSON 文件葫芦岛国帝 萘普生栓.json 已成功保存到 ./data/medician/葫芦岛国帝 萘普生栓.json
+2023-03-25 20:54:58 JSON 文件黑龙江成功药业 萘普生栓.json 已成功保存到 ./data/medician/黑龙江成功药业 萘普生栓.json
+2023-03-25 20:55:01 JSON 文件上海上药 萘普生钠注射液.json 已成功保存到 ./data/medician/上海上药 萘普生钠注射液.json
+2023-03-25 20:55:03 JSON 文件凯尔 尼麦角林胶囊.json 已成功保存到 ./data/medician/凯尔 尼麦角林胶囊.json
+2023-03-25 20:55:06 JSON 文件北京亚东 小青龙合剂.json 已成功保存到 ./data/medician/北京亚东 小青龙合剂.json
+2023-03-25 20:55:10 JSON 文件信谊 地高辛片.json 已成功保存到 ./data/medician/信谊 地高辛片.json
+2023-03-25 20:55:13 JSON 文件北京太洋 阿司匹林维C肠溶片.json 已成功保存到 ./data/medician/北京太洋 阿司匹林维C肠溶片.json
+2023-03-25 20:55:17 JSON 文件快克 复方氨酚烷胺胶囊.json 已成功保存到 ./data/medician/快克 复方氨酚烷胺胶囊.json
+2023-03-25 20:55:18 JSON 文件杭州娃哈哈 氨咖愈敏溶液.json 已成功保存到 ./data/medician/杭州娃哈哈 氨咖愈敏溶液.json
+2023-03-25 20:55:23 JSON 文件奥克.json 已成功保存到 ./data/medician/奥克.json
+2023-03-25 20:55:26 JSON 文件洛赛克.json 已成功保存到 ./data/medician/洛赛克.json
+2023-03-25 20:55:27 JSON 文件艾那多.json 已成功保存到 ./data/medician/艾那多.json
+2023-03-25 20:55:32 JSON 文件天方药业 甲硝唑片.json 已成功保存到 ./data/medician/天方药业 甲硝唑片.json
+2023-03-25 20:55:34 JSON 文件白润洁 氯化钠滴眼液.json 已成功保存到 ./data/medician/白润洁 氯化钠滴眼液.json
+2023-03-25 20:55:35 JSON 文件苹芳淑.json 已成功保存到 ./data/medician/苹芳淑.json
+2023-03-25 20:55:37 JSON 文件泰方.json 已成功保存到 ./data/medician/泰方.json
+2023-03-25 20:55:38 JSON 文件太极集团 十全大补酒.json 已成功保存到 ./data/medician/太极集团 十全大补酒.json
+2023-03-25 20:55:39 JSON 文件奥博林.json 已成功保存到 ./data/medician/奥博林.json
+2023-03-25 20:55:43 JSON 文件北京长城制药 十全大补颗粒.json 已成功保存到 ./data/medician/北京长城制药 十全大补颗粒.json
+2023-03-25 20:55:44 JSON 文件奥立妥.json 已成功保存到 ./data/medician/奥立妥.json
+2023-03-25 20:55:45 JSON 文件北京宝树堂 十全大补片.json 已成功保存到 ./data/medician/北京宝树堂 十全大补片.json
+2023-03-25 20:55:48 JSON 文件同仁堂制药厂 舒筋活血定痛散.json 已成功保存到 ./data/medician/同仁堂制药厂 舒筋活血定痛散.json
+2023-03-25 20:55:50 JSON 文件内德滋.json 已成功保存到 ./data/medician/内德滋.json
+2023-03-25 20:55:52 JSON 文件北京春风 双黄连颗粒.json 已成功保存到 ./data/medician/北京春风 双黄连颗粒.json
+2023-03-25 20:55:54 JSON 文件立华制药 八珍颗粒(无糖型).json 已成功保存到 ./data/medician/立华制药 八珍颗粒(无糖型).json
+2023-03-25 20:55:55 JSON 文件康司艾.json 已成功保存到 ./data/medician/康司艾.json
+2023-03-25 20:55:58 JSON 文件圣诺安.json 已成功保存到 ./data/medician/圣诺安.json
+2023-03-25 20:55:59 JSON 文件圣诺.json 已成功保存到 ./data/medician/圣诺.json
+2023-03-25 20:56:02 JSON 文件山东京卫 硝酸甘油气雾剂.json 已成功保存到 ./data/medician/山东京卫 硝酸甘油气雾剂.json
+2023-03-25 20:56:04 JSON 文件广州王老吉 痰咳净片.json 已成功保存到 ./data/medician/广州王老吉 痰咳净片.json
+2023-03-25 20:56:05 JSON 文件亚洁.json 已成功保存到 ./data/medician/亚洁.json
+2023-03-25 20:56:07 JSON 文件诺金 百合固金片.json 已成功保存到 ./data/medician/诺金 百合固金片.json
+2023-03-25 20:56:10 JSON 文件河山 胸腺肽肠溶片.json 已成功保存到 ./data/medician/河山 胸腺肽肠溶片.json
+2023-03-25 20:56:11 JSON 文件思考林.json 已成功保存到 ./data/medician/思考林.json
+2023-03-25 20:56:12 JSON 文件韧可 天麻首乌胶囊.json 已成功保存到 ./data/medician/韧可 天麻首乌胶囊.json
+2023-03-25 20:56:15 JSON 文件北京双吉 红霉素软膏.json 已成功保存到 ./data/medician/北京双吉 红霉素软膏.json
+2023-03-25 20:56:16 JSON 文件欧迈.json 已成功保存到 ./data/medician/欧迈.json
+2023-03-25 20:56:17 JSON 文件辅仁药业 氯化钠注射液.json 已成功保存到 ./data/medician/辅仁药业 氯化钠注射液.json
+2023-03-25 20:56:19 JSON 文件众益 红霉素肠溶胶囊.json 已成功保存到 ./data/medician/众益 红霉素肠溶胶囊.json
+2023-03-25 20:56:22 JSON 文件粒珍.json 已成功保存到 ./data/medician/粒珍.json
+2023-03-25 20:56:24 JSON 文件北京双吉 红霉素眼膏.json 已成功保存到 ./data/medician/北京双吉 红霉素眼膏.json
+2023-03-25 20:56:24 JSON 文件同仁堂制药厂 同仁乌鸡白凤口服液.json 已成功保存到 ./data/medician/同仁堂制药厂 同仁乌鸡白凤口服液.json
+2023-03-25 20:56:26 JSON 文件赛立奥.json 已成功保存到 ./data/medician/赛立奥.json
+2023-03-25 20:56:28 JSON 文件兰百幸.json 已成功保存到 ./data/medician/兰百幸.json
+2023-03-25 20:56:30 JSON 文件北京诚济制药 头孢拉定颗粒.json 已成功保存到 ./data/medician/北京诚济制药 头孢拉定颗粒.json
+2023-03-25 20:56:31 JSON 文件同仁堂制药厂 通宣理肺口服液.json 已成功保存到 ./data/medician/同仁堂制药厂 通宣理肺口服液.json
+2023-03-25 20:56:33 JSON 文件广州白云山明兴 硝酸甘油注射液.json 已成功保存到 ./data/medician/广州白云山明兴 硝酸甘油注射液.json
+2023-03-25 20:56:35 JSON 文件浙江一新 通脉颗粒.json 已成功保存到 ./data/medician/浙江一新 通脉颗粒.json
+2023-03-25 20:56:38 JSON 文件善得康.json 已成功保存到 ./data/medician/善得康.json
+2023-03-25 20:56:39 JSON 文件益诺.json 已成功保存到 ./data/medician/益诺.json
+2023-03-25 20:56:41 JSON 文件北京中新药业 贝诺酯片.json 已成功保存到 ./data/medician/北京中新药业 贝诺酯片.json
+2023-03-25 20:56:43 JSON 文件通化万通 百咳静糖浆.json 已成功保存到 ./data/medician/通化万通 百咳静糖浆.json
+2023-03-25 20:56:44 JSON 文件保和堂 六味地黄颗粒.json 已成功保存到 ./data/medician/保和堂 六味地黄颗粒.json
+2023-03-25 20:56:45 JSON 文件悦博.json 已成功保存到 ./data/medician/悦博.json
+2023-03-25 20:56:47 JSON 文件广东香山堂制药 头孢拉定片.json 已成功保存到 ./data/medician/广东香山堂制药 头孢拉定片.json
+2023-03-25 20:56:52 JSON 文件上海旭东海普 氯解磷定注射液.json 已成功保存到 ./data/medician/上海旭东海普 氯解磷定注射液.json
+2023-03-25 20:56:53 JSON 文件北京长城制药 六味地黄口服液.json 已成功保存到 ./data/medician/北京长城制药 六味地黄口服液.json
+2023-03-25 20:56:55 JSON 文件北京汉典 六味地黄片.json 已成功保存到 ./data/medician/北京汉典 六味地黄片.json
+2023-03-25 20:56:56 JSON 文件欧意.json 已成功保存到 ./data/medician/欧意.json
+2023-03-25 20:57:06 JSON 文件威海华新 维D2磷酸氢钙片.json 已成功保存到 ./data/medician/威海华新 维D2磷酸氢钙片.json
+2023-03-25 20:57:08 JSON 文件来索欣 溶菌酶肠溶片.json 已成功保存到 ./data/medician/来索欣 溶菌酶肠溶片.json
+2023-03-25 20:57:10 JSON 文件星元佳.json 已成功保存到 ./data/medician/星元佳.json
+2023-03-25 20:57:11 JSON 文件欣渠.json 已成功保存到 ./data/medician/欣渠.json
+2023-03-25 20:57:14 JSON 文件山东罗欣 氯雷他定胶囊.json 已成功保存到 ./data/medician/山东罗欣 氯雷他定胶囊.json
+2023-03-25 20:57:15 JSON 文件邦力 维胺酯维E乳膏.json 已成功保存到 ./data/medician/邦力 维胺酯维E乳膏.json
+2023-03-25 20:57:17 JSON 文件北京同仁堂 板蓝根颗粒.json 已成功保存到 ./data/medician/北京同仁堂 板蓝根颗粒.json
+2023-03-25 20:57:18 JSON 文件华润双鹤 维生素B6片.json 已成功保存到 ./data/medician/华润双鹤 维生素B6片.json
+2023-03-25 20:57:20 JSON 文件海王抒瑞.json 已成功保存到 ./data/medician/海王抒瑞.json
+2023-03-25 20:57:23 JSON 文件广州王老吉 板蓝根颗粒.json 已成功保存到 ./data/medician/广州王老吉 板蓝根颗粒.json
+2023-03-25 20:57:26 JSON 文件开瑞坦.json 已成功保存到 ./data/medician/开瑞坦.json
+2023-03-25 20:57:28 JSON 文件上海黄河 卡马西平片.json 已成功保存到 ./data/medician/上海黄河 卡马西平片.json
+2023-03-25 20:57:30 JSON 文件嘉欣.json 已成功保存到 ./data/medician/嘉欣.json
+2023-03-25 20:57:31 JSON 文件北京同仁堂 半夏天麻丸.json 已成功保存到 ./data/medician/北京同仁堂 半夏天麻丸.json
+2023-03-25 20:57:33 JSON 文件力度伸.json 已成功保存到 ./data/medician/力度伸.json
+2023-03-25 20:57:35 JSON 文件北京京丰 维生素C片.json 已成功保存到 ./data/medician/北京京丰 维生素C片.json
+2023-03-25 20:57:38 JSON 文件得理多.json 已成功保存到 ./data/medician/得理多.json
+2023-03-25 20:57:39 JSON 文件华润双鹤 维生素C片.json 已成功保存到 ./data/medician/华润双鹤 维生素C片.json
+2023-03-25 20:57:41 JSON 文件上海旭东海普 维生素C注射液.json 已成功保存到 ./data/medician/上海旭东海普 维生素C注射液.json
+2023-03-25 20:57:43 JSON 文件达克宁.json 已成功保存到 ./data/medician/达克宁.json
+2023-03-25 20:57:44 JSON 文件上海禾丰 维生素C注射液.json 已成功保存到 ./data/medician/上海禾丰 维生素C注射液.json
+2023-03-25 20:57:47 JSON 文件利欧.json 已成功保存到 ./data/medician/利欧.json
+2023-03-25 20:57:49 JSON 文件华润双鹤 维生素C注射液.json 已成功保存到 ./data/medician/华润双鹤 维生素C注射液.json
+2023-03-25 20:57:50 JSON 文件内舒拿.json 已成功保存到 ./data/medician/内舒拿.json
+2023-03-25 20:57:52 JSON 文件华润双鹤 维生素E软胶囊.json 已成功保存到 ./data/medician/华润双鹤 维生素E软胶囊.json
+2023-03-25 20:57:54 JSON 文件本悦.json 已成功保存到 ./data/medician/本悦.json
+2023-03-25 20:57:55 JSON 文件友好 维生素E软胶囊.json 已成功保存到 ./data/medician/友好 维生素E软胶囊.json
+2023-03-25 20:57:57 JSON 文件力生 苯妥英钠片.json 已成功保存到 ./data/medician/力生 苯妥英钠片.json
+2023-03-25 20:57:58 JSON 文件泰生 比沙可啶肠溶片.json 已成功保存到 ./data/medician/泰生 比沙可啶肠溶片.json
+2023-03-25 20:57:59 JSON 文件太极集团 牛黄上清软胶囊(人工牛黄方).json 已成功保存到 ./data/medician/太极集团 牛黄上清软胶囊(人工牛黄方).json
+2023-03-25 20:58:00 JSON 文件广东邦民 保和咀嚼片.json 已成功保存到 ./data/medician/广东邦民 保和咀嚼片.json
+2023-03-25 20:58:01 JSON 文件解泰.json 已成功保存到 ./data/medician/解泰.json
+2023-03-25 20:58:03 JSON 文件悦博.json 已成功保存到 ./data/medician/悦博.json
+2023-03-25 20:58:04 JSON 文件华润紫竹 吡喹酮片.json 已成功保存到 ./data/medician/华润紫竹 吡喹酮片.json
+2023-03-25 20:58:06 JSON 文件成都倍特 维生素K1注射液.json 已成功保存到 ./data/medician/成都倍特 维生素K1注射液.json
+2023-03-25 20:58:07 JSON 文件东北制药 吡拉西坦分散片.json 已成功保存到 ./data/medician/东北制药 吡拉西坦分散片.json
+2023-03-25 20:58:09 JSON 文件润舒.json 已成功保存到 ./data/medician/润舒.json
+2023-03-25 20:58:10 JSON 文件合肥利民 保和颗粒.json 已成功保存到 ./data/medician/合肥利民 保和颗粒.json
+2023-03-25 20:58:12 JSON 文件杭州民生 吡拉西坦片.json 已成功保存到 ./data/medician/杭州民生 吡拉西坦片.json
+2023-03-25 20:58:15 JSON 文件艾洛松.json 已成功保存到 ./data/medician/艾洛松.json
+2023-03-25 20:58:17 JSON 文件上海和黄 保和片.json 已成功保存到 ./data/medician/上海和黄 保和片.json
+2023-03-25 20:58:18 JSON 文件华润双鹤 烟酸注射液.json 已成功保存到 ./data/medician/华润双鹤 烟酸注射液.json
+2023-03-25 20:58:20 JSON 文件敏使朗.json 已成功保存到 ./data/medician/敏使朗.json
+2023-03-25 20:58:21 JSON 文件山西振东安特 吡拉西坦注射液.json 已成功保存到 ./data/medician/山西振东安特 吡拉西坦注射液.json
+2023-03-25 20:58:22 JSON 文件赛莫司.json 已成功保存到 ./data/medician/赛莫司.json
+2023-03-25 20:58:24 JSON 文件华神制药 鼻渊舒口服液.json 已成功保存到 ./data/medician/华神制药 鼻渊舒口服液.json
+2023-03-25 20:58:25 JSON 文件北京康而福 牛黄蛇胆川贝滴丸.json 已成功保存到 ./data/medician/北京康而福 牛黄蛇胆川贝滴丸.json
+2023-03-25 20:58:27 JSON 文件锋锐.json 已成功保存到 ./data/medician/锋锐.json
+2023-03-25 20:58:31 JSON 文件哈药三精黑河 槟榔四消片.json 已成功保存到 ./data/medician/哈药三精黑河 槟榔四消片.json
+2023-03-25 20:58:33 JSON 文件利复星.json 已成功保存到 ./data/medician/利复星.json
+2023-03-25 20:58:34 JSON 文件迈纬希.json 已成功保存到 ./data/medician/迈纬希.json
+2023-03-25 20:58:35 JSON 文件吉灵参 补中益气颗粒.json 已成功保存到 ./data/medician/吉灵参 补中益气颗粒.json
+2023-03-25 20:58:36 JSON 文件长春大政 甲硝唑芬布芬胶囊.json 已成功保存到 ./data/medician/长春大政 甲硝唑芬布芬胶囊.json
+2023-03-25 20:58:39 JSON 文件万夫洛.json 已成功保存到 ./data/medician/万夫洛.json
+2023-03-25 20:58:40 JSON 文件999 参附注射液.json 已成功保存到 ./data/medician/999 参附注射液.json
+2023-03-25 20:58:42 JSON 文件广西南宁百会 葡萄糖酸锌片.json 已成功保存到 ./data/medician/广西南宁百会 葡萄糖酸锌片.json
+2023-03-25 20:58:44 JSON 文件广东华南 丙硫氧嘧啶片.json 已成功保存到 ./data/medician/广东华南 丙硫氧嘧啶片.json
+2023-03-25 20:58:45 JSON 文件正大青春宝 参麦注射液.json 已成功保存到 ./data/medician/正大青春宝 参麦注射液.json
+2023-03-25 20:58:48 JSON 文件一孚晴.json 已成功保存到 ./data/medician/一孚晴.json
+2023-03-25 20:58:50 JSON 文件座康王  克林霉素甲硝唑搽剂.json 已成功保存到 ./data/medician/座康王  克林霉素甲硝唑搽剂.json
+2023-03-25 20:58:52 JSON 文件华润双鹤 甲硝唑葡萄糖注射液.json 已成功保存到 ./data/medician/华润双鹤 甲硝唑葡萄糖注射液.json
+2023-03-25 20:58:54 JSON 文件格瑞西.json 已成功保存到 ./data/medician/格瑞西.json
+2023-03-25 20:58:58 JSON 文件百沫舒.json 已成功保存到 ./data/medician/百沫舒.json
+2023-03-25 20:59:01 JSON 文件必纳维.json 已成功保存到 ./data/medician/必纳维.json
+2023-03-25 20:59:02 JSON 文件赤峰维康 布洛芬分散片.json 已成功保存到 ./data/medician/赤峰维康 布洛芬分散片.json
+2023-03-25 20:59:04 JSON 文件畅维禧.json 已成功保存到 ./data/medician/畅维禧.json
+2023-03-25 20:59:11 JSON 文件芬必得 布洛芬缓释胶囊.json 已成功保存到 ./data/medician/芬必得 布洛芬缓释胶囊.json
+2023-03-25 20:59:13 JSON 文件鲁南 柴银口服液.json 已成功保存到 ./data/medician/鲁南 柴银口服液.json
+2023-03-25 20:59:15 JSON 文件同仁堂 麻仁润肠丸.json 已成功保存到 ./data/medician/同仁堂 麻仁润肠丸.json
+2023-03-25 20:59:18 JSON 文件抚尔达.json 已成功保存到 ./data/medician/抚尔达.json
+2023-03-25 20:59:19 JSON 文件达林 克林霉素磷酸酯凝胶.json 已成功保存到 ./data/medician/达林 克林霉素磷酸酯凝胶.json
+2023-03-25 20:59:21 JSON 文件成都地奥 龙胆泻肝口服液.json 已成功保存到 ./data/medician/成都地奥 龙胆泻肝口服液.json
+2023-03-25 20:59:23 JSON 文件美林.json 已成功保存到 ./data/medician/美林.json
+2023-03-25 20:59:24 JSON 文件江西天施康中药 肠炎宁颗粒.json 已成功保存到 ./data/medician/江西天施康中药 肠炎宁颗粒.json
+2023-03-25 20:59:26 JSON 文件湖北东信 甲硝唑栓.json 已成功保存到 ./data/medician/湖北东信 甲硝唑栓.json
+2023-03-25 20:59:28 JSON 文件富希康.json 已成功保存到 ./data/medician/富希康.json
+2023-03-25 20:59:30 JSON 文件九发 创灼膏.json 已成功保存到 ./data/medician/九发 创灼膏.json
+2023-03-25 20:59:32 JSON 文件西维尔.json 已成功保存到 ./data/medician/西维尔.json
+2023-03-25 20:59:34 JSON 文件国药集团广东环球制药 七叶神安片.json 已成功保存到 ./data/medician/国药集团广东环球制药 七叶神安片.json
+2023-03-25 20:59:36 JSON 文件兰苏.json 已成功保存到 ./data/medician/兰苏.json
+2023-03-25 20:59:37 JSON 文件尼美欣.json 已成功保存到 ./data/medician/尼美欣.json
+2023-03-25 20:59:39 JSON 文件泰诺制药 刺五加片.json 已成功保存到 ./data/medician/泰诺制药 刺五加片.json
+2023-03-25 20:59:41 JSON 文件正大天晴 消旋卡多曲胶囊.json 已成功保存到 ./data/medician/正大天晴 消旋卡多曲胶囊.json
+2023-03-25 20:59:42 JSON 文件北京太洋 布洛芬胶囊.json 已成功保存到 ./data/medician/北京太洋 布洛芬胶囊.json
+2023-03-25 20:59:43 JSON 文件安瑞克.json 已成功保存到 ./data/medician/安瑞克.json
+2023-03-25 20:59:44 JSON 文件江苏正大丰海 消旋卡多曲胶囊.json 已成功保存到 ./data/medician/江苏正大丰海 消旋卡多曲胶囊.json
+2023-03-25 20:59:46 JSON 文件黑龙江乌苏里江 刺五加注射液.json 已成功保存到 ./data/medician/黑龙江乌苏里江 刺五加注射液.json
+2023-03-25 20:59:48 JSON 文件北京顺鑫祥云 甲硝唑阴道泡腾片.json 已成功保存到 ./data/medician/北京顺鑫祥云 甲硝唑阴道泡腾片.json
+2023-03-25 20:59:50 JSON 文件思密达.json 已成功保存到 ./data/medician/思密达.json
+2023-03-25 20:59:51 JSON 文件奇洛克.json 已成功保存到 ./data/medician/奇洛克.json
+2023-03-25 20:59:53 JSON 文件关维.json 已成功保存到 ./data/medician/关维.json
+2023-03-25 20:59:54 JSON 文件湖南康源 甲硝唑氯化钠注射液.json 已成功保存到 ./data/medician/湖南康源 甲硝唑氯化钠注射液.json
+2023-03-25 20:59:56 JSON 文件山东惠诺 蒙脱石散.json 已成功保存到 ./data/medician/山东惠诺 蒙脱石散.json
+2023-03-25 20:59:57 JSON 文件赛福美 草乌甲素片.json 已成功保存到 ./data/medician/赛福美 草乌甲素片.json
+2023-03-25 20:59:58 JSON 文件成都地奥 丹参颗粒.json 已成功保存到 ./data/medician/成都地奥 丹参颗粒.json
+2023-03-25 21:00:00 JSON 文件力生制药 甲氧氯普胺片.json 已成功保存到 ./data/medician/力生制药 甲氧氯普胺片.json
+2023-03-25 21:00:01 JSON 文件河南太龙 丹参口服液.json 已成功保存到 ./data/medician/河南太龙 丹参口服液.json
+2023-03-25 21:00:02 JSON 文件北京益民 茶苯海明片.json 已成功保存到 ./data/medician/北京益民 茶苯海明片.json
+2023-03-25 21:00:03 JSON 文件容大.json 已成功保存到 ./data/medician/容大.json
+2023-03-25 21:00:06 JSON 文件吉林东北亚 丹参片.json 已成功保存到 ./data/medician/吉林东北亚 丹参片.json
+2023-03-25 21:00:07 JSON 文件北京亚东 杞菊地黄胶囊.json 已成功保存到 ./data/medician/北京亚东 杞菊地黄胶囊.json
+2023-03-25 21:00:09 JSON 文件羚锐 关节止痛膏.json 已成功保存到 ./data/medician/羚锐 关节止痛膏.json
+2023-03-25 21:00:13 JSON 文件正大青春宝 丹参注射液.json 已成功保存到 ./data/medician/正大青春宝 丹参注射液.json
+2023-03-25 21:00:16 JSON 文件山西好医生 胶体果胶铋胶囊.json 已成功保存到 ./data/medician/山西好医生 胶体果胶铋胶囊.json
+2023-03-25 21:00:17 JSON 文件维可莱.json 已成功保存到 ./data/medician/维可莱.json
+2023-03-25 21:00:23 JSON 文件黑龙江江世 胶体果胶铋胶囊.json 已成功保存到 ./data/medician/黑龙江江世 胶体果胶铋胶囊.json
+2023-03-25 21:00:24 JSON 文件利倍思.json 已成功保存到 ./data/medician/利倍思.json
+2023-03-25 21:00:25 JSON 文件达芬蓉.json 已成功保存到 ./data/medician/达芬蓉.json
+2023-03-25 21:00:27 JSON 文件湖北远大天天明 聚乙烯醇滴眼液.json 已成功保存到 ./data/medician/湖北远大天天明 聚乙烯醇滴眼液.json
+2023-03-25 21:00:29 JSON 文件达士明.json 已成功保存到 ./data/medician/达士明.json
+2023-03-25 21:00:30 JSON 文件同仁堂制药厂 二母宁嗽颗粒.json 已成功保存到 ./data/medician/同仁堂制药厂 二母宁嗽颗粒.json
+2023-03-25 21:00:33 JSON 文件北京同仁堂科技 二母宁嗽口服液.json 已成功保存到 ./data/medician/北京同仁堂科技 二母宁嗽口服液.json
+2023-03-25 21:00:36 JSON 文件容生 硫酸庆大霉素注射液.json 已成功保存到 ./data/medician/容生 硫酸庆大霉素注射液.json
+2023-03-25 21:00:38 JSON 文件上海旭东海普 醋酸曲安奈德注射液.json 已成功保存到 ./data/medician/上海旭东海普 醋酸曲安奈德注射液.json
+2023-03-25 21:00:40 JSON 文件东阿阿胶 复方阿胶浆.json 已成功保存到 ./data/medician/东阿阿胶 复方阿胶浆.json
+2023-03-25 21:00:41 JSON 文件速力菲.json 已成功保存到 ./data/medician/速力菲.json
+2023-03-25 21:00:41 JSON 文件杰力泰.json 已成功保存到 ./data/medician/杰力泰.json
+2023-03-25 21:00:43 JSON 文件北京益民 硫酸镁注射液.json 已成功保存到 ./data/medician/北京益民 硫酸镁注射液.json
+2023-03-25 21:00:44 JSON 文件先声药业 咳喘宁胶囊.json 已成功保存到 ./data/medician/先声药业 咳喘宁胶囊.json
+2023-03-25 21:00:45 JSON 文件江苏联环 达那唑栓.json 已成功保存到 ./data/medician/江苏联环 达那唑栓.json
+2023-03-25 21:00:47 JSON 文件白云山制药总厂 抗病毒软胶囊.json 已成功保存到 ./data/medician/白云山制药总厂 抗病毒软胶囊.json
+2023-03-25 21:00:48 JSON 文件上海黄河 大黄碳酸氢钠片.json 已成功保存到 ./data/medician/上海黄河 大黄碳酸氢钠片.json
+2023-03-25 21:00:51 JSON 文件天士力 荆花胃康胶丸.json 已成功保存到 ./data/medician/天士力 荆花胃康胶丸.json
+2023-03-25 21:00:53 JSON 文件加葵龙.json 已成功保存到 ./data/medician/加葵龙.json
+2023-03-25 21:00:56 JSON 文件菲得欣.json 已成功保存到 ./data/medician/菲得欣.json
+2023-03-25 21:00:57 JSON 文件乐派.json 已成功保存到 ./data/medician/乐派.json
+2023-03-25 21:00:59 JSON 文件达霏欣.json 已成功保存到 ./data/medician/达霏欣.json
+2023-03-25 21:01:00 JSON 文件重庆华邦 林可霉素利多卡因凝胶.json 已成功保存到 ./data/medician/重庆华邦 林可霉素利多卡因凝胶.json
+2023-03-25 21:01:03 JSON 文件伊诺舒.json 已成功保存到 ./data/medician/伊诺舒.json
+2023-03-25 21:01:04 JSON 文件利欧.json 已成功保存到 ./data/medician/利欧.json
+2023-03-25 21:01:06 JSON 文件帕特拉.json 已成功保存到 ./data/medician/帕特拉.json
+2023-03-25 21:01:07 JSON 文件彼迪甘.json 已成功保存到 ./data/medician/彼迪甘.json
+2023-03-25 21:01:09 JSON 文件长江药业 克拉霉素片.json 已成功保存到 ./data/medician/长江药业 克拉霉素片.json
+2023-03-25 21:01:10 JSON 文件杭州民生 盐酸雷尼替丁注射液.json 已成功保存到 ./data/medician/杭州民生 盐酸雷尼替丁注射液.json
+2023-03-25 21:01:12 JSON 文件北京永康 肌苷片.json 已成功保存到 ./data/medician/北京永康 肌苷片.json
+2023-03-25 21:01:14 JSON 文件北京永康 烟酸肌醇酯片.json 已成功保存到 ./data/medician/北京永康 烟酸肌醇酯片.json
+2023-03-25 21:01:17 JSON 文件百多邦 莫匹罗星软膏.json 已成功保存到 ./data/medician/百多邦 莫匹罗星软膏.json
+2023-03-25 21:01:18 JSON 文件华润赛科 肌醇烟酸酯片.json 已成功保存到 ./data/medician/华润赛科 肌醇烟酸酯片.json
+2023-03-25 21:01:20 JSON 文件北京亚东 藿香正气口服液.json 已成功保存到 ./data/medician/北京亚东 藿香正气口服液.json
+2023-03-25 21:01:21 JSON 文件同仁堂 活血止痛散.json 已成功保存到 ./data/medician/同仁堂 活血止痛散.json
+2023-03-25 21:01:22 JSON 文件时泰.json 已成功保存到 ./data/medician/时泰.json
+2023-03-25 21:01:24 JSON 文件卡斯迈欣.json 已成功保存到 ./data/medician/卡斯迈欣.json
+2023-03-25 21:01:25 JSON 文件上海通用 黄体酮注射液.json 已成功保存到 ./data/medician/上海通用 黄体酮注射液.json
+2023-03-25 21:01:27 JSON 文件尧都 地巴唑片.json 已成功保存到 ./data/medician/尧都 地巴唑片.json
+2023-03-25 21:01:28 JSON 文件正大青春宝 黄芪注射液.json 已成功保存到 ./data/medician/正大青春宝 黄芪注射液.json
+2023-03-25 21:01:30 JSON 文件维泽.json 已成功保存到 ./data/medician/维泽.json
+2023-03-25 21:01:32 JSON 文件江苏聚荣 黄芪精.json 已成功保存到 ./data/medician/江苏聚荣 黄芪精.json
+2023-03-25 21:01:34 JSON 文件开迈.json 已成功保存到 ./data/medician/开迈.json
+2023-03-25 21:01:37 JSON 文件奕丰.json 已成功保存到 ./data/medician/奕丰.json
+2023-03-25 21:01:39 JSON 文件福州海王金象中药 颠茄酊.json 已成功保存到 ./data/medician/福州海王金象中药 颠茄酊.json
+2023-03-25 21:01:41 JSON 文件环利.json 已成功保存到 ./data/medician/环利.json
+2023-03-25 21:01:43 JSON 文件利迈先.json 已成功保存到 ./data/medician/利迈先.json
+2023-03-25 21:01:45 JSON 文件北京太洋 琥乙红霉素片.json 已成功保存到 ./data/medician/北京太洋 琥乙红霉素片.json
+2023-03-25 21:01:46 JSON 文件辅仁药业 木糖醇注射液.json 已成功保存到 ./data/medician/辅仁药业 木糖醇注射液.json
+2023-03-25 21:01:50 JSON 文件北京曙光 琥乙红霉素片.json 已成功保存到 ./data/medician/北京曙光 琥乙红霉素片.json
+2023-03-25 21:01:53 JSON 文件泰诺林.json 已成功保存到 ./data/medician/泰诺林.json
+2023-03-25 21:01:56 JSON 文件河南同源 克霉唑乳膏.json 已成功保存到 ./data/medician/河南同源 克霉唑乳膏.json
+2023-03-25 21:02:00 JSON 文件乐普恒久远药业 盐酸倍他司汀片.json 已成功保存到 ./data/medician/乐普恒久远药业 盐酸倍他司汀片.json
+2023-03-25 21:02:02 JSON 文件瑞源.json 已成功保存到 ./data/medician/瑞源.json
+2023-03-25 21:02:03 JSON 文件京益 盐酸氯丙嗪片.json 已成功保存到 ./data/medician/京益 盐酸氯丙嗪片.json
+2023-03-25 21:02:05 JSON 文件凯妮汀.json 已成功保存到 ./data/medician/凯妮汀.json
+2023-03-25 21:02:07 JSON 文件必理通.json 已成功保存到 ./data/medician/必理通.json
+2023-03-25 21:02:09 JSON 文件爱100 盐酸苯海拉明片.json 已成功保存到 ./data/medician/爱100 盐酸苯海拉明片.json
+2023-03-25 21:02:10 JSON 文件金康普力.json 已成功保存到 ./data/medician/金康普力.json
+2023-03-25 21:02:12 JSON 文件诺邦.json 已成功保存到 ./data/medician/诺邦.json
+2023-03-25 21:02:14 JSON 文件贺普丁.json 已成功保存到 ./data/medician/贺普丁.json
+2023-03-25 21:02:15 JSON 文件邦宁沙吉.json 已成功保存到 ./data/medician/邦宁沙吉.json
+2023-03-25 21:02:16 JSON 文件东信 对乙酰氨基酚栓.json 已成功保存到 ./data/medician/东信 对乙酰氨基酚栓.json
+2023-03-25 21:02:17 JSON 文件上海衡山 青霉素V钾胶囊.json 已成功保存到 ./data/medician/上海衡山 青霉素V钾胶囊.json
+2023-03-25 21:02:19 JSON 文件北京首儿 对乙酰氨基酚糖浆.json 已成功保存到 ./data/medician/北京首儿 对乙酰氨基酚糖浆.json
+2023-03-25 21:02:20 JSON 文件杭州国光药业 盐酸洛美沙星滴眼液.json 已成功保存到 ./data/medician/杭州国光药业 盐酸洛美沙星滴眼液.json
+2023-03-25 21:02:22 JSON 文件卡迈.json 已成功保存到 ./data/medician/卡迈.json
+2023-03-25 21:02:24 JSON 文件百夜星.json 已成功保存到 ./data/medician/百夜星.json
+2023-03-25 21:02:25 JSON 文件维百斯.json 已成功保存到 ./data/medician/维百斯.json
+2023-03-25 21:02:29 JSON 文件乐贝新.json 已成功保存到 ./data/medician/乐贝新.json
+2023-03-25 21:02:32 JSON 文件力生制药 氢氯噻嗪片.json 已成功保存到 ./data/medician/力生制药 氢氯噻嗪片.json
+2023-03-25 21:02:36 JSON 文件北京振东康远制药 盐酸洛美沙星颗粒.json 已成功保存到 ./data/medician/北京振东康远制药 盐酸洛美沙星颗粒.json
+2023-03-25 21:02:38 JSON 文件鲁南 拉坦前列素滴眼液.json 已成功保存到 ./data/medician/鲁南 拉坦前列素滴眼液.json
+2023-03-25 21:02:43 JSON 文件臻克.json 已成功保存到 ./data/medician/臻克.json
+2023-03-25 21:02:44 JSON 文件德可思.json 已成功保存到 ./data/medician/德可思.json
+2023-03-25 21:02:47 JSON 文件河南同源 盐酸洛美沙星乳膏.json 已成功保存到 ./data/medician/河南同源 盐酸洛美沙星乳膏.json
+2023-03-25 21:02:49 JSON 文件湖南汉森 氢溴酸右美沙芬颗粒.json 已成功保存到 ./data/medician/湖南汉森 氢溴酸右美沙芬颗粒.json
+2023-03-25 21:02:53 JSON 文件卓悦.json 已成功保存到 ./data/medician/卓悦.json
+2023-03-25 21:02:54 JSON 文件同仁堂制药厂 止咳橘红口服液.json 已成功保存到 ./data/medician/同仁堂制药厂 止咳橘红口服液.json
+2023-03-25 21:02:58 JSON 文件海南赛立克 清开灵滴丸.json 已成功保存到 ./data/medician/海南赛立克 清开灵滴丸.json
+2023-03-25 21:03:05 JSON 文件北京同仁堂 清气化痰丸.json 已成功保存到 ./data/medician/北京同仁堂 清气化痰丸.json
+2023-03-25 21:03:06 JSON 文件北京太洋 盐酸地芬尼多片.json 已成功保存到 ./data/medician/北京太洋 盐酸地芬尼多片.json
+2023-03-25 21:03:08 JSON 文件苏州二叶 注射用阿洛西林钠.json 已成功保存到 ./data/medician/苏州二叶 注射用阿洛西林钠.json
+2023-03-25 21:03:10 JSON 文件普乐宁.json 已成功保存到 ./data/medician/普乐宁.json
+2023-03-25 21:03:13 JSON 文件卜可.json 已成功保存到 ./data/medician/卜可.json
+2023-03-25 21:03:18 JSON 文件华润三九 益母草颗粒.json 已成功保存到 ./data/medician/华润三九 益母草颗粒.json
+2023-03-25 21:03:19 JSON 文件上海信谊 二羟丙茶碱注射液.json 已成功保存到 ./data/medician/上海信谊 二羟丙茶碱注射液.json
+2023-03-25 21:03:21 JSON 文件北京麦迪海 清热解毒片.json 已成功保存到 ./data/medician/北京麦迪海 清热解毒片.json
+2023-03-25 21:03:23 JSON 文件悦达宁.json 已成功保存到 ./data/medician/悦达宁.json
+2023-03-25 21:03:25 JSON 文件毓婷.json 已成功保存到 ./data/medician/毓婷.json
+2023-03-25 21:03:26 JSON 文件那琦.json 已成功保存到 ./data/medician/那琦.json
+2023-03-25 21:03:28 JSON 文件天津太平洋 二羟丙茶碱片.json 已成功保存到 ./data/medician/天津太平洋 二羟丙茶碱片.json
+2023-03-25 21:03:30 JSON 文件毓婷.json 已成功保存到 ./data/medician/毓婷.json
+2023-03-25 21:03:33 JSON 文件泰白.json 已成功保存到 ./data/medician/泰白.json
+2023-03-25 21:03:34 JSON 文件海口制药 盐酸普萘洛尔缓释片.json 已成功保存到 ./data/medician/海口制药 盐酸普萘洛尔缓释片.json
+2023-03-25 21:03:35 JSON 文件亦欧青.json 已成功保存到 ./data/medician/亦欧青.json
+2023-03-25 21:03:37 JSON 文件汕头金石 盐酸普萘洛尔片.json 已成功保存到 ./data/medician/汕头金石 盐酸普萘洛尔片.json
+2023-03-25 21:03:39 JSON 文件凯西莱.json 已成功保存到 ./data/medician/凯西莱.json
+2023-03-25 21:03:44 JSON 文件华润紫竹 盐酸普萘洛尔注射液.json 已成功保存到 ./data/medician/华润紫竹 盐酸普萘洛尔注射液.json
+2023-03-25 21:03:48 JSON 文件律克.json 已成功保存到 ./data/medician/律克.json
+2023-03-25 21:03:50 JSON 文件珍德.json 已成功保存到 ./data/medician/珍德.json
+2023-03-25 21:03:52 JSON 文件北京长城制药 益母草软胶囊.json 已成功保存到 ./data/medician/北京长城制药 益母草软胶囊.json
+2023-03-25 21:03:54 JSON 文件江苏联环 曲克芦丁片.json 已成功保存到 ./data/medician/江苏联环 曲克芦丁片.json
+2023-03-25 21:03:56 JSON 文件江苏吴中苏州制药 注射用卡络磺钠.json 已成功保存到 ./data/medician/江苏吴中苏州制药 注射用卡络磺钠.json
+2023-03-25 21:04:00 JSON 文件山东良福 曲咪新乳膏.json 已成功保存到 ./data/medician/山东良福 曲咪新乳膏.json
+2023-03-25 21:04:02 JSON 文件丽珠集团 多潘立酮片.json 已成功保存到 ./data/medician/丽珠集团 多潘立酮片.json
+2023-03-25 21:04:03 JSON 文件顺峰康霜  曲咪新乳膏.json 已成功保存到 ./data/medician/顺峰康霜  曲咪新乳膏.json
+2023-03-25 21:04:05 JSON 文件陕西天地人和药业 热毒平颗粒.json 已成功保存到 ./data/medician/陕西天地人和药业 热毒平颗粒.json
+2023-03-25 21:04:07 JSON 文件千安倍 注射用腺苷钴胺.json 已成功保存到 ./data/medician/千安倍 注射用腺苷钴胺.json
+2023-03-25 21:04:08 JSON 文件地奥 银黄含片.json 已成功保存到 ./data/medician/地奥 银黄含片.json
+2023-03-25 21:04:11 JSON 文件益保世灵.json 已成功保存到 ./data/medician/益保世灵.json
+2023-03-25 21:04:13 JSON 文件加合百服宁.json 已成功保存到 ./data/medician/加合百服宁.json
+2023-03-25 21:04:14 JSON 文件山西普德 注射用维生素C.json 已成功保存到 ./data/medician/山西普德 注射用维生素C.json
+2023-03-25 21:04:17 JSON 文件福建兴源 二羟丙茶碱氯化钠注射液.json 已成功保存到 ./data/medician/福建兴源 二羟丙茶碱氯化钠注射液.json
+2023-03-25 21:04:19 JSON 文件北京亚东 银黄胶囊.json 已成功保存到 ./data/medician/北京亚东 银黄胶囊.json
+2023-03-25 21:04:23 JSON 文件江西济民可信 银黄颗粒.json 已成功保存到 ./data/medician/江西济民可信 银黄颗粒.json
+2023-03-25 21:04:25 JSON 文件陕西郝其军 复方皂矾胶囊.json 已成功保存到 ./data/medician/陕西郝其军 复方皂矾胶囊.json
+2023-03-25 21:04:26 JSON 文件陕西郝其军 复方皂矾片.json 已成功保存到 ./data/medician/陕西郝其军 复方皂矾片.json
+2023-03-25 21:04:28 JSON 文件四川绿叶制药 妇康宁胶囊.json 已成功保存到 ./data/medician/四川绿叶制药 妇康宁胶囊.json
+2023-03-25 21:04:29 JSON 文件白云山制药总厂 蜂蜡素胶囊.json 已成功保存到 ./data/medician/白云山制药总厂 蜂蜡素胶囊.json
+2023-03-25 21:04:30 JSON 文件江苏颐海 妇康宁胶囊.json 已成功保存到 ./data/medician/江苏颐海 妇康宁胶囊.json
+2023-03-25 21:04:32 JSON 文件悦康药业 注射用头孢唑林钠.json 已成功保存到 ./data/medician/悦康药业 注射用头孢唑林钠.json
+2023-03-25 21:04:33 JSON 文件贵州瑞和 妇康宁片.json 已成功保存到 ./data/medician/贵州瑞和 妇康宁片.json
+2023-03-25 21:04:36 JSON 文件格华止.json 已成功保存到 ./data/medician/格华止.json
+2023-03-25 21:04:37 JSON 文件北京长城制药 银翘解毒合剂.json 已成功保存到 ./data/medician/北京长城制药 银翘解毒合剂.json
+2023-03-25 21:04:40 JSON 文件美迪康.json 已成功保存到 ./data/medician/美迪康.json
+2023-03-25 21:04:41 JSON 文件巴美洛.json 已成功保存到 ./data/medician/巴美洛.json
+2023-03-25 21:04:44 JSON 文件力生 呋塞米片.json 已成功保存到 ./data/medician/力生 呋塞米片.json
+2023-03-25 21:04:45 JSON 文件菲科坦.json 已成功保存到 ./data/medician/菲科坦.json
+2023-03-25 21:04:46 JSON 文件美达新.json 已成功保存到 ./data/medician/美达新.json
+2023-03-25 21:04:47 JSON 文件天津金耀 呋塞米注射液.json 已成功保存到 ./data/medician/天津金耀 呋塞米注射液.json
+2023-03-25 21:04:49 JSON 文件静达.json 已成功保存到 ./data/medician/静达.json
+2023-03-25 21:04:51 JSON 文件江苏奥赛康 紫杉醇注射液.json 已成功保存到 ./data/medician/江苏奥赛康 紫杉醇注射液.json
+2023-03-25 21:04:52 JSON 文件沈阳兴齐眼药 氟康唑滴眼液.json 已成功保存到 ./data/medician/沈阳兴齐眼药 氟康唑滴眼液.json
+2023-03-25 21:04:54 JSON 文件悦康药业 注射用头孢他啶.json 已成功保存到 ./data/medician/悦康药业 注射用头孢他啶.json
+2023-03-25 21:04:55 JSON 文件大扶康.json 已成功保存到 ./data/medician/大扶康.json
+2023-03-25 21:04:57 JSON 文件千金 妇科千金胶囊.json 已成功保存到 ./data/medician/千金 妇科千金胶囊.json
+2023-03-25 21:05:01 JSON 文件英贝齐 注射用头孢他啶.json 已成功保存到 ./data/medician/英贝齐 注射用头孢他啶.json
+2023-03-25 21:05:02 JSON 文件同仁堂 润肺止嗽丸.json 已成功保存到 ./data/medician/同仁堂 润肺止嗽丸.json
+2023-03-25 21:05:03 JSON 文件东北 盐酸小檗碱片.json 已成功保存到 ./data/medician/东北 盐酸小檗碱片.json
+2023-03-25 21:05:05 JSON 文件千金 妇科千金片.json 已成功保存到 ./data/medician/千金 妇科千金片.json
+2023-03-25 21:05:06 JSON 文件罗氏芬.json 已成功保存到 ./data/medician/罗氏芬.json
+2023-03-25 21:05:08 JSON 文件天津华津 氟康唑胶囊.json 已成功保存到 ./data/medician/天津华津 氟康唑胶囊.json
+2023-03-25 21:05:10 JSON 文件开封康诺 盐酸小檗碱片.json 已成功保存到 ./data/medician/开封康诺 盐酸小檗碱片.json
+2023-03-25 21:05:11 JSON 文件汝宁.json 已成功保存到 ./data/medician/汝宁.json
+2023-03-25 21:05:12 JSON 文件山东绿因 妇女痛经颗粒.json 已成功保存到 ./data/medician/山东绿因 妇女痛经颗粒.json
+2023-03-25 21:05:14 JSON 文件威奇达 注射用头孢曲松钠.json 已成功保存到 ./data/medician/威奇达 注射用头孢曲松钠.json
+2023-03-25 21:05:17 JSON 文件广东万年青 妇炎平散.json 已成功保存到 ./data/medician/广东万年青 妇炎平散.json
+2023-03-25 21:05:18 JSON 文件康锐.json 已成功保存到 ./data/medician/康锐.json
+2023-03-25 21:05:20 JSON 文件新福欣.json 已成功保存到 ./data/medician/新福欣.json
+2023-03-25 21:05:22 JSON 文件四川古蔺肝苏 肝苏胶囊.json 已成功保存到 ./data/medician/四川古蔺肝苏 肝苏胶囊.json
+2023-03-25 21:05:23 JSON 文件依利康.json 已成功保存到 ./data/medician/依利康.json
+2023-03-25 21:05:25 JSON 文件北京曙光 盐酸环丙沙星胶囊.json 已成功保存到 ./data/medician/北京曙光 盐酸环丙沙星胶囊.json
+2023-03-25 21:05:27 JSON 文件江西济民可信 清热解毒口服液.json 已成功保存到 ./data/medician/江西济民可信 清热解毒口服液.json
+2023-03-25 21:05:28 JSON 文件北京亚东 感冒清热胶囊.json 已成功保存到 ./data/medician/北京亚东 感冒清热胶囊.json
+2023-03-25 21:05:31 JSON 文件同仁堂 感冒清热颗粒.json 已成功保存到 ./data/medician/同仁堂 感冒清热颗粒.json
+2023-03-25 21:05:32 JSON 文件通化万通 桑菊感冒颗粒.json 已成功保存到 ./data/medician/通化万通 桑菊感冒颗粒.json
+2023-03-25 21:05:33 JSON 文件桐菊 伤痛宁膏.json 已成功保存到 ./data/medician/桐菊 伤痛宁膏.json
+2023-03-25 21:05:38 JSON 文件意施丁.json 已成功保存到 ./data/medician/意施丁.json
+2023-03-25 21:05:40 JSON 文件山东方明 格列齐特片(Ⅱ).json 已成功保存到 ./data/medician/山东方明 格列齐特片(Ⅱ).json
+2023-03-25 21:05:42 JSON 文件文清.json 已成功保存到 ./data/medician/文清.json
+2023-03-25 21:05:43 JSON 文件悉复欢 盐酸环丙沙星片.json 已成功保存到 ./data/medician/悉复欢 盐酸环丙沙星片.json
+2023-03-25 21:05:44 JSON 文件花红药业 葛根芩连丸(葛根芩连微丸).json 已成功保存到 ./data/medician/花红药业 葛根芩连丸(葛根芩连微丸).json
+2023-03-25 21:05:46 JSON 文件润舒 硫酸锌尿囊素滴眼液.json 已成功保存到 ./data/medician/润舒 硫酸锌尿囊素滴眼液.json
+2023-03-25 21:05:50 JSON 文件冕益康 盐酸左旋咪唑搽剂.json 已成功保存到 ./data/medician/冕益康 盐酸左旋咪唑搽剂.json
+2023-03-25 21:05:52 JSON 文件马应龙 麝香痔疮栓.json 已成功保存到 ./data/medician/马应龙 麝香痔疮栓.json
+2023-03-25 21:05:54 JSON 文件北京双吉 吲哚美辛栓.json 已成功保存到 ./data/medician/北京双吉 吲哚美辛栓.json
+2023-03-25 21:05:55 JSON 文件海口制药 根痛平片.json 已成功保存到 ./data/medician/海口制药 根痛平片.json
+2023-03-25 21:05:57 JSON 文件海伦 盐酸左氧氟沙星滴眼液.json 已成功保存到 ./data/medician/海伦 盐酸左氧氟沙星滴眼液.json
+2023-03-25 21:05:59 JSON 文件鹊灵  硫酸亚铁片.json 已成功保存到 ./data/medician/鹊灵  硫酸亚铁片.json
+2023-03-25 21:06:00 JSON 文件达力新.json 已成功保存到 ./data/medician/达力新.json
+2023-03-25 21:06:04 JSON 文件上山虎 麝香壮骨膏.json 已成功保存到 ./data/medician/上山虎 麝香壮骨膏.json
+2023-03-25 21:06:05 JSON 文件丽科乐.json 已成功保存到 ./data/medician/丽科乐.json
+2023-03-25 21:06:07 JSON 文件丽珠集团 硫糖铝分散片.json 已成功保存到 ./data/medician/丽珠集团 硫糖铝分散片.json
+2023-03-25 21:06:08 JSON 文件文清.json 已成功保存到 ./data/medician/文清.json
+2023-03-25 21:06:10 JSON 文件泉盈.json 已成功保存到 ./data/medician/泉盈.json
+2023-03-25 21:06:12 JSON 文件奥赛托星.json 已成功保存到 ./data/medician/奥赛托星.json
+2023-03-25 21:06:15 JSON 文件华太.json 已成功保存到 ./data/medician/华太.json
+2023-03-25 21:06:16 JSON 文件乐克沙 酞丁安滴眼液.json 已成功保存到 ./data/medician/乐克沙 酞丁安滴眼液.json
+2023-03-25 21:06:19 JSON 文件宁新宝 盐酸左氧氟沙星胶囊.json 已成功保存到 ./data/medician/宁新宝 盐酸左氧氟沙星胶囊.json
+2023-03-25 21:06:22 JSON 文件江苏灵豹 酞丁安乳膏.json 已成功保存到 ./data/medician/江苏灵豹 酞丁安乳膏.json
+2023-03-25 21:06:24 JSON 文件渭依.json 已成功保存到 ./data/medician/渭依.json
+2023-03-25 21:06:25 JSON 文件步长 碳酸钙咀嚼片.json 已成功保存到 ./data/medician/步长 碳酸钙咀嚼片.json
+2023-03-25 21:06:27 JSON 文件广州白云山明兴 氟罗沙星片.json 已成功保存到 ./data/medician/广州白云山明兴 氟罗沙星片.json
+2023-03-25 21:06:28 JSON 文件白敬宇 硫糖铝咀嚼片.json 已成功保存到 ./data/medician/白敬宇 硫糖铝咀嚼片.json
+2023-03-25 21:06:32 JSON 文件固元.json 已成功保存到 ./data/medician/固元.json
+2023-03-25 21:06:33 JSON 文件信谊 硫唑嘌呤片.json 已成功保存到 ./data/medician/信谊 硫唑嘌呤片.json
+2023-03-25 21:06:34 JSON 文件珠海同源药业 碳酸钙片.json 已成功保存到 ./data/medician/珠海同源药业 碳酸钙片.json
+2023-03-25 21:06:36 JSON 文件辰龙罗欣.json 已成功保存到 ./data/medician/辰龙罗欣.json
+2023-03-25 21:06:40 JSON 文件石药控股集团河北永丰药业 氯霉素片.json 已成功保存到 ./data/medician/石药控股集团河北永丰药业 氯霉素片.json
+2023-03-25 21:06:41 JSON 文件上海信谊 盐酸精氨酸注射液.json 已成功保存到 ./data/medician/上海信谊 盐酸精氨酸注射液.json
+2023-03-25 21:06:43 JSON 文件诺尔.json 已成功保存到 ./data/medician/诺尔.json
+2023-03-25 21:06:45 JSON 文件德众 玉屏风颗粒.json 已成功保存到 ./data/medician/德众 玉屏风颗粒.json
+2023-03-25 21:06:47 JSON 文件清康.json 已成功保存到 ./data/medician/清康.json
+2023-03-25 21:06:48 JSON 文件替诺康.json 已成功保存到 ./data/medician/替诺康.json
+2023-03-25 21:06:54 JSON 文件乐净.json 已成功保存到 ./data/medician/乐净.json
+2023-03-25 21:06:57 JSON 文件感叹号 复方氨酚烷胺片.json 已成功保存到 ./data/medician/感叹号 复方氨酚烷胺片.json
+2023-03-25 21:06:58 JSON 文件杭州国光药业 溶菌酶含片.json 已成功保存到 ./data/medician/杭州国光药业 溶菌酶含片.json
+2023-03-25 21:07:01 JSON 文件丽珠集团 替硝唑片.json 已成功保存到 ./data/medician/丽珠集团 替硝唑片.json
+2023-03-25 21:07:02 JSON 文件遂成药业 更昔洛韦注射液.json 已成功保存到 ./data/medician/遂成药业 更昔洛韦注射液.json
+2023-03-25 21:07:04 JSON 文件美罗药业 注射用乳糖酸红霉素.json 已成功保存到 ./data/medician/美罗药业 注射用乳糖酸红霉素.json
+2023-03-25 21:07:06 JSON 文件替硝唑氯化钠注射液.json 已成功保存到 ./data/medician/替硝唑氯化钠注射液.json
+2023-03-25 21:07:08 JSON 文件迪诺新.json 已成功保存到 ./data/medician/迪诺新.json
+2023-03-25 21:07:10 JSON 文件散利痛 复方对乙酰氨基酚片(Ⅱ).json 已成功保存到 ./data/medician/散利痛 复方对乙酰氨基酚片(Ⅱ).json
+2023-03-25 21:07:12 JSON 文件浙江迪耳 复方莪术油栓.json 已成功保存到 ./data/medician/浙江迪耳 复方莪术油栓.json
+2023-03-25 21:07:14 JSON 文件昂利康制药 盐酸左氧氟沙星片.json 已成功保存到 ./data/medician/昂利康制药 盐酸左氧氟沙星片.json
+2023-03-25 21:07:15 JSON 文件远大医药 复方甘草片.json 已成功保存到 ./data/medician/远大医药 复方甘草片.json
+2023-03-25 21:07:16 JSON 文件苏中 盐酸左氧氟沙星葡萄糖注射液.json 已成功保存到 ./data/medician/苏中 盐酸左氧氟沙星葡萄糖注射液.json
+2023-03-25 21:07:17 JSON 文件康毅 宫颈炎康栓.json 已成功保存到 ./data/medician/康毅 宫颈炎康栓.json
+2023-03-25 21:07:18 JSON 文件南京新百 复方骨肽注射液.json 已成功保存到 ./data/medician/南京新百 复方骨肽注射液.json
+2023-03-25 21:07:19 JSON 文件北京顺鑫祥云 鞣酸蛋白片.json 已成功保存到 ./data/medician/北京顺鑫祥云 鞣酸蛋白片.json
+2023-03-25 21:07:21 JSON 文件太宁 复方角菜酸酯栓.json 已成功保存到 ./data/medician/太宁 复方角菜酸酯栓.json
+2023-03-25 21:07:22 JSON 文件云南白药 云南白药创可贴.json 已成功保存到 ./data/medician/云南白药 云南白药创可贴.json
+2023-03-25 21:07:23 JSON 文件联邦左福康 盐酸左氧氟沙星软膏.json 已成功保存到 ./data/medician/联邦左福康 盐酸左氧氟沙星软膏.json
+2023-03-25 21:07:25 JSON 文件先瑞 枸橼酸铋钾胶囊.json 已成功保存到 ./data/medician/先瑞 枸橼酸铋钾胶囊.json
+2023-03-25 21:07:28 JSON 文件杰奇.json 已成功保存到 ./data/medician/杰奇.json
+2023-03-25 21:07:31 JSON 文件同仁堂制药厂 养阴清肺颗粒.json 已成功保存到 ./data/medician/同仁堂制药厂 养阴清肺颗粒.json
+2023-03-25 21:07:32 JSON 文件云南白药 云南白药酊.json 已成功保存到 ./data/medician/云南白药 云南白药酊.json
+2023-03-25 21:07:33 JSON 文件丽珠集团 注射用尿激酶.json 已成功保存到 ./data/medician/丽珠集团 注射用尿激酶.json
+2023-03-25 21:07:36 JSON 文件常药 复方利血平片.json 已成功保存到 ./data/medician/常药 复方利血平片.json
+2023-03-25 21:07:38 JSON 文件苏州第壹 枸橼酸喷托维林片.json 已成功保存到 ./data/medician/苏州第壹 枸橼酸喷托维林片.json
+2023-03-25 21:07:40 JSON 文件松鹿 养阴清肺口服液.json 已成功保存到 ./data/medician/松鹿 养阴清肺口服液.json
+2023-03-25 21:07:41 JSON 文件同仁堂 养阴清肺丸.json 已成功保存到 ./data/medician/同仁堂 养阴清肺丸.json
+2023-03-25 21:07:43 JSON 文件得必泰.json 已成功保存到 ./data/medician/得必泰.json
+2023-03-25 21:07:44 JSON 文件沈阳兴齐眼药 盐酸可乐定滴眼液.json 已成功保存到 ./data/medician/沈阳兴齐眼药 盐酸可乐定滴眼液.json
+2023-03-25 21:07:46 JSON 文件哈药三精 复方铝酸铋片.json 已成功保存到 ./data/medician/哈药三精 复方铝酸铋片.json
+2023-03-25 21:07:48 JSON 文件信利妥.json 已成功保存到 ./data/medician/信利妥.json
+2023-03-25 21:07:50 JSON 文件奥复星.json 已成功保存到 ./data/medician/奥复星.json
+2023-03-25 21:07:51 JSON 文件北京协和 盐酸苯氨咪唑啉片.json 已成功保存到 ./data/medician/北京协和 盐酸苯氨咪唑啉片.json
+2023-03-25 21:07:57 JSON 文件维净 氧氟沙星栓.json 已成功保存到 ./data/medician/维净 氧氟沙星栓.json
+2023-03-25 21:07:59 JSON 文件江西博士达 复方益母草胶囊.json 已成功保存到 ./data/medician/江西博士达 复方益母草胶囊.json
+2023-03-25 21:08:00 JSON 文件长天 药用炭片.json 已成功保存到 ./data/medician/长天 药用炭片.json
+2023-03-25 21:08:03 JSON 文件斯利安.json 已成功保存到 ./data/medician/斯利安.json
+2023-03-25 21:08:07 JSON 文件江苏亚邦爱普森 叶酸片.json 已成功保存到 ./data/medician/江苏亚邦爱普森 叶酸片.json
+2023-03-25 21:08:09 JSON 文件威地美.json 已成功保存到 ./data/medician/威地美.json
+2023-03-25 21:08:10 JSON 文件大德 鲜益母草胶囊.json 已成功保存到 ./data/medician/大德 鲜益母草胶囊.json
+2023-03-25 21:08:12 JSON 文件康弘 一清胶囊.json 已成功保存到 ./data/medician/康弘 一清胶囊.json
+2023-03-25 21:08:14 JSON 文件四川升和 一清颗粒.json 已成功保存到 ./data/medician/四川升和 一清颗粒.json
+2023-03-25 21:08:20 JSON 文件甘利欣.json 已成功保存到 ./data/medician/甘利欣.json
+2023-03-25 21:08:22 JSON 文件凯莱克林 盐酸克林霉素棕榈酸酯分散片.json 已成功保存到 ./data/medician/凯莱克林 盐酸克林霉素棕榈酸酯分散片.json
+2023-03-25 21:08:24 JSON 文件上海上药信谊药厂 格列吡嗪片.json 已成功保存到 ./data/medician/上海上药信谊药厂 格列吡嗪片.json
+2023-03-25 21:08:26 JSON 文件美扶.json 已成功保存到 ./data/medician/美扶.json
+2023-03-25 21:08:28 JSON 文件美吡达.json 已成功保存到 ./data/medician/美吡达.json
+2023-03-25 21:08:30 JSON 文件斯皮仁诺.json 已成功保存到 ./data/medician/斯皮仁诺.json
+2023-03-25 21:08:34 JSON 文件鲁南贝特.json 已成功保存到 ./data/medician/鲁南贝特.json
+2023-03-25 21:08:36 JSON 文件北京万辉双鹤 硫酸锌片.json 已成功保存到 ./data/medician/北京万辉双鹤 硫酸锌片.json
+2023-03-25 21:08:37 JSON 文件丰海 复方尿囊素片.json 已成功保存到 ./data/medician/丰海 复方尿囊素片.json
+2023-03-25 21:08:38 JSON 文件镇通.json 已成功保存到 ./data/medician/镇通.json
+2023-03-25 21:08:42 JSON 文件博利康尼.json 已成功保存到 ./data/medician/博利康尼.json
+2023-03-25 21:08:43 JSON 文件斯皮仁诺.json 已成功保存到 ./data/medician/斯皮仁诺.json
+2023-03-25 21:08:44 JSON 文件力扬.json 已成功保存到 ./data/medician/力扬.json
+2023-03-25 21:08:46 JSON 文件显克欣.json 已成功保存到 ./data/medician/显克欣.json
+2023-03-25 21:08:50 JSON 文件保龙康 复方酮康唑软膏.json 已成功保存到 ./data/medician/保龙康 复方酮康唑软膏.json
+2023-03-25 21:08:52 JSON 文件可奥斯.json 已成功保存到 ./data/medician/可奥斯.json
+2023-03-25 21:08:53 JSON 文件康辰 骨疏康颗粒.json 已成功保存到 ./data/medician/康辰 骨疏康颗粒.json
+2023-03-25 21:08:55 JSON 文件佳洛坦.json 已成功保存到 ./data/medician/佳洛坦.json
+2023-03-25 21:08:57 JSON 文件典舒.json 已成功保存到 ./data/medician/典舒.json
+2023-03-25 21:08:58 JSON 文件典舒.json 已成功保存到 ./data/medician/典舒.json
+2023-03-25 21:08:59 JSON 文件达芬科闯.json 已成功保存到 ./data/medician/达芬科闯.json
+2023-03-25 21:09:00 JSON 文件富华 骨松宝胶囊.json 已成功保存到 ./data/medician/富华 骨松宝胶囊.json
+2023-03-25 21:09:02 JSON 文件开林.json 已成功保存到 ./data/medician/开林.json
+2023-03-25 21:09:03 JSON 文件同芬.json 已成功保存到 ./data/medician/同芬.json
+2023-03-25 21:09:06 JSON 文件秦苏.json 已成功保存到 ./data/medician/秦苏.json
+2023-03-25 21:09:08 JSON 文件常药 富马酸酮替芬片.json 已成功保存到 ./data/medician/常药 富马酸酮替芬片.json
+2023-03-25 21:09:09 JSON 文件远大医药 依诺沙星片.json 已成功保存到 ./data/medician/远大医药 依诺沙星片.json
+2023-03-25 21:09:11 JSON 文件福建金山 依诺沙星乳膏.json 已成功保存到 ./data/medician/福建金山 依诺沙星乳膏.json
+2023-03-25 21:09:15 JSON 文件玉川 谷维素片.json 已成功保存到 ./data/medician/玉川 谷维素片.json
+2023-03-25 21:09:17 JSON 文件络倍静.json 已成功保存到 ./data/medician/络倍静.json
+2023-03-25 21:09:20 JSON 文件利莎林 阿莫西林分散片.json 已成功保存到 ./data/medician/利莎林 阿莫西林分散片.json
+2023-03-25 21:09:21 JSON 文件立生源.json 已成功保存到 ./data/medician/立生源.json
+2023-03-25 21:09:23 JSON 文件贝克诺顿 阿莫西林胶囊.json 已成功保存到 ./data/medician/贝克诺顿 阿莫西林胶囊.json
+2023-03-25 21:09:25 JSON 文件四川制药制剂 乙酰螺旋霉素片.json 已成功保存到 ./data/medician/四川制药制剂 乙酰螺旋霉素片.json
+2023-03-25 21:09:27 JSON 文件美欧卡.json 已成功保存到 ./data/medician/美欧卡.json
+2023-03-25 21:09:28 JSON 文件美力泰.json 已成功保存到 ./data/medician/美力泰.json
+2023-03-25 21:09:28 JSON 文件胜君.json 已成功保存到 ./data/medician/胜君.json
+2023-03-25 21:09:31 JSON 文件阿莫仙 阿莫西林胶囊.json 已成功保存到 ./data/medician/阿莫仙 阿莫西林胶囊.json
+2023-03-25 21:09:33 JSON 文件石药集团 注射用氯唑西林钠.json 已成功保存到 ./data/medician/石药集团 注射用氯唑西林钠.json
+2023-03-25 21:09:34 JSON 文件信谊 异烟肼片.json 已成功保存到 ./data/medician/信谊 异烟肼片.json
+2023-03-25 21:09:37 JSON 文件蚌埠丰原涂山 注射用赖氨匹林.json 已成功保存到 ./data/medician/蚌埠丰原涂山 注射用赖氨匹林.json
+2023-03-25 21:09:39 JSON 文件再林®阿莫西林颗粒.json 已成功保存到 ./data/medician/再林®阿莫西林颗粒.json
+2023-03-25 21:09:40 JSON 文件华润紫竹 复方孕二烯酮片.json 已成功保存到 ./data/medician/华润紫竹 复方孕二烯酮片.json
+2023-03-25 21:09:43 JSON 文件安禾.json 已成功保存到 ./data/medician/安禾.json
+2023-03-25 21:09:45 JSON 文件乐美奇 阿奇霉素分散片.json 已成功保存到 ./data/medician/乐美奇 阿奇霉素分散片.json
+2023-03-25 21:09:46 JSON 文件江苏晨牌 复方氯唑沙宗胶囊.json 已成功保存到 ./data/medician/江苏晨牌 复方氯唑沙宗胶囊.json
+2023-03-25 21:09:48 JSON 文件拜康.json 已成功保存到 ./data/medician/拜康.json
+2023-03-25 21:09:49 JSON 文件华润双鹤 生理氯化钠溶液.json 已成功保存到 ./data/medician/华润双鹤 生理氯化钠溶液.json
+2023-03-25 21:09:50 JSON 文件湖北凤凰白云山 复方氢溴酸右美沙芬糖浆.json 已成功保存到 ./data/medician/湖北凤凰白云山 复方氢溴酸右美沙芬糖浆.json
+2023-03-25 21:09:53 JSON 文件山西三晋药业 格列本脲片.json 已成功保存到 ./data/medician/山西三晋药业 格列本脲片.json
+2023-03-25 21:09:54 JSON 文件杭州康恩贝 盐酸雷尼替丁泡腾颗粒.json 已成功保存到 ./data/medician/杭州康恩贝 盐酸雷尼替丁泡腾颗粒.json
+2023-03-25 21:09:56 JSON 文件华润双鹤 氯化钠注射液.json 已成功保存到 ./data/medician/华润双鹤 氯化钠注射液.json
+2023-03-25 21:09:58 JSON 文件维宏.json 已成功保存到 ./data/medician/维宏.json
+2023-03-25 21:10:01 JSON 文件格爽.json 已成功保存到 ./data/medician/格爽.json
+2023-03-25 21:10:05 JSON 文件泰比.json 已成功保存到 ./data/medician/泰比.json
+2023-03-25 21:10:06 JSON 文件石药 盐酸雷尼替丁片.json 已成功保存到 ./data/medician/石药 盐酸雷尼替丁片.json
+2023-03-25 21:10:09 JSON 文件亚宝 注射用奥美拉唑钠.json 已成功保存到 ./data/medician/亚宝 注射用奥美拉唑钠.json
+2023-03-25 21:10:11 JSON 文件杭州民生 高三尖杉酯碱注射液.json 已成功保存到 ./data/medician/杭州民生 高三尖杉酯碱注射液.json
+2023-03-25 21:10:13 JSON 文件奥西康.json 已成功保存到 ./data/medician/奥西康.json
+2023-03-25 21:10:15 JSON 文件多日纳 复方左炔诺孕酮片.json 已成功保存到 ./data/medician/多日纳 复方左炔诺孕酮片.json
+2023-03-25 21:10:17 JSON 文件洛赛克.json 已成功保存到 ./data/medician/洛赛克.json
+2023-03-25 21:10:18 JSON 文件南京白敬宇 复方左炔诺孕酮滴丸.json 已成功保存到 ./data/medician/南京白敬宇 复方左炔诺孕酮滴丸.json
+2023-03-25 21:10:19 JSON 文件扶尔.json 已成功保存到 ./data/medician/扶尔.json
+2023-03-25 21:10:22 JSON 文件百灵鸟 维C银翘片.json 已成功保存到 ./data/medician/百灵鸟 维C银翘片.json
+2023-03-25 21:10:23 JSON 文件石药 注射用氨苄西林钠.json 已成功保存到 ./data/medician/石药 注射用氨苄西林钠.json
+2023-03-25 21:10:25 JSON 文件泰力特.json 已成功保存到 ./data/medician/泰力特.json
+2023-03-25 21:10:27 JSON 文件南京白敬宇 复方左炔诺孕酮片.json 已成功保存到 ./data/medician/南京白敬宇 复方左炔诺孕酮片.json
+2023-03-25 21:10:29 JSON 文件吉林康乃尔 氯化钠注射液.json 已成功保存到 ./data/medician/吉林康乃尔 氯化钠注射液.json
+2023-03-25 21:10:31 JSON 文件同安堂 维C银翘片.json 已成功保存到 ./data/medician/同安堂 维C银翘片.json
+2023-03-25 21:10:33 JSON 文件奇泰.json 已成功保存到 ./data/medician/奇泰.json
+2023-03-25 21:10:35 JSON 文件维威 维C银翘片.json 已成功保存到 ./data/medician/维威 维C银翘片.json
+2023-03-25 21:10:37 JSON 文件海南三叶 葡萄糖酸锌颗粒.json 已成功保存到 ./data/medician/海南三叶 葡萄糖酸锌颗粒.json
+2023-03-25 21:10:39 JSON 文件山东齐都 氯化钠注射液.json 已成功保存到 ./data/medician/山东齐都 氯化钠注射液.json
+2023-03-25 21:10:41 JSON 文件博科 富马酸酮替芬滴鼻液.json 已成功保存到 ./data/medician/博科 富马酸酮替芬滴鼻液.json
+2023-03-25 21:10:44 JSON 文件贝卡明.json 已成功保存到 ./data/medician/贝卡明.json
+2023-03-25 21:10:46 JSON 文件上海衡山 富马酸酮替芬胶囊.json 已成功保存到 ./data/medician/上海衡山 富马酸酮替芬胶囊.json
+2023-03-25 21:10:49 JSON 文件维宏.json 已成功保存到 ./data/medician/维宏.json
+2023-03-25 21:10:50 JSON 文件哈药总厂 富马酸亚铁混悬液.json 已成功保存到 ./data/medician/哈药总厂 富马酸亚铁混悬液.json
+2023-03-25 21:10:54 JSON 文件佩迪 阿奇霉素片.json 已成功保存到 ./data/medician/佩迪 阿奇霉素片.json
+2023-03-25 21:10:55 JSON 文件惠州大亚 葡萄糖酸钙含片.json 已成功保存到 ./data/medician/惠州大亚 葡萄糖酸钙含片.json
+2023-03-25 21:10:59 JSON 文件希舒美.json 已成功保存到 ./data/medician/希舒美.json
+2023-03-25 21:11:00 JSON 文件石家庄四药 氯化钠注射液.json 已成功保存到 ./data/medician/石家庄四药 氯化钠注射液.json
+2023-03-25 21:11:02 JSON 文件新黄河制药 富马酸亚铁咀嚼片.json 已成功保存到 ./data/medician/新黄河制药 富马酸亚铁咀嚼片.json
+2023-03-25 21:11:03 JSON 文件浙江亚太 富马酸亚铁咀嚼片.json 已成功保存到 ./data/medician/浙江亚太 富马酸亚铁咀嚼片.json
+2023-03-25 21:11:08 JSON 文件国药集团广东环球制药 氯己定苯佐卡因含片.json 已成功保存到 ./data/medician/国药集团广东环球制药 氯己定苯佐卡因含片.json
+2023-03-25 21:11:09 JSON 文件三才石岐制药 富马酸亚铁片.json 已成功保存到 ./data/medician/三才石岐制药 富马酸亚铁片.json
+2023-03-25 21:11:12 JSON 文件武汉五景 阿昔洛韦滴眼液.json 已成功保存到 ./data/medician/武汉五景 阿昔洛韦滴眼液.json
+2023-03-25 21:11:13 JSON 文件桑海 喷托维林氯化铵糖浆.json 已成功保存到 ./data/medician/桑海 喷托维林氯化铵糖浆.json
+2023-03-25 21:11:15 JSON 文件常州千红 肝素钠注射液.json 已成功保存到 ./data/medician/常州千红 肝素钠注射液.json
+2023-03-25 21:11:16 JSON 文件云南希陶 喷托维林氯化铵糖浆.json 已成功保存到 ./data/medician/云南希陶 喷托维林氯化铵糖浆.json
+2023-03-25 21:11:19 JSON 文件海普林.json 已成功保存到 ./data/medician/海普林.json
+2023-03-25 21:11:21 JSON 文件芙琦星.json 已成功保存到 ./data/medician/芙琦星.json
+2023-03-25 21:11:23 JSON 文件华东医药 甘羟铝片.json 已成功保存到 ./data/medician/华东医药 甘羟铝片.json
+2023-03-25 21:11:25 JSON 文件奎因.json 已成功保存到 ./data/medician/奎因.json
+2023-03-25 21:11:26 JSON 文件北京赛而 甘露聚糖肽片.json 已成功保存到 ./data/medician/北京赛而 甘露聚糖肽片.json
+2023-03-25 21:11:28 JSON 文件上海禾丰 缩宫素注射液.json 已成功保存到 ./data/medician/上海禾丰 缩宫素注射液.json
+2023-03-25 21:11:30 JSON 文件精威.json 已成功保存到 ./data/medician/精威.json
+2023-03-25 21:11:33 JSON 文件达力芬.json 已成功保存到 ./data/medician/达力芬.json
+2023-03-25 21:11:35 JSON 文件北京曙光 羧甲司坦片.json 已成功保存到 ./data/medician/北京曙光 羧甲司坦片.json
+2023-03-25 21:11:40 JSON 文件息斯敏 氯雷他定片.json 已成功保存到 ./data/medician/息斯敏 氯雷他定片.json
+2023-03-25 21:11:42 JSON 文件欧力康 阿昔洛韦分散片.json 已成功保存到 ./data/medician/欧力康 阿昔洛韦分散片.json
+2023-03-25 21:11:43 JSON 文件康普利.json 已成功保存到 ./data/medician/康普利.json
+2023-03-25 21:11:46 JSON 文件北京太洋 卡马西平片.json 已成功保存到 ./data/medician/北京太洋 卡马西平片.json
+2023-03-25 21:11:48 JSON 文件艾韦达.json 已成功保存到 ./data/medician/艾韦达.json
+2023-03-25 21:11:49 JSON 文件白云山 羧甲司坦口服溶液.json 已成功保存到 ./data/medician/白云山 羧甲司坦口服溶液.json
+2023-03-25 21:11:50 JSON 文件力生制药 甲睾酮片.json 已成功保存到 ./data/medician/力生制药 甲睾酮片.json
+2023-03-25 21:11:52 JSON 文件史泰舒.json 已成功保存到 ./data/medician/史泰舒.json
+2023-03-25 21:11:53 JSON 文件开仕.json 已成功保存到 ./data/medician/开仕.json
+2023-03-25 21:11:56 JSON 文件信龙 硝酸咪康唑乳膏.json 已成功保存到 ./data/medician/信龙 硝酸咪康唑乳膏.json
+2023-03-25 21:11:57 JSON 文件深圳海王 复方铝酸铋胶囊.json 已成功保存到 ./data/medician/深圳海王 复方铝酸铋胶囊.json
+2023-03-25 21:12:01 JSON 文件舒尔.json 已成功保存到 ./data/medician/舒尔.json
+2023-03-25 21:12:02 JSON 文件信龙 水杨酸软膏.json 已成功保存到 ./data/medician/信龙 水杨酸软膏.json
+2023-03-25 21:12:04 JSON 文件甲硝唑凝胶.json 已成功保存到 ./data/medician/甲硝唑凝胶.json
+2023-03-25 21:12:06 JSON 文件华润赛科 烟酰胺片.json 已成功保存到 ./data/medician/华润赛科 烟酰胺片.json
+2023-03-25 21:12:07 JSON 文件麦芙欣.json 已成功保存到 ./data/medician/麦芙欣.json
+2023-03-25 21:12:09 JSON 文件平洁 甲硝唑乳膏.json 已成功保存到 ./data/medician/平洁 甲硝唑乳膏.json
+2023-03-25 21:12:12 JSON 文件泰必捷.json 已成功保存到 ./data/medician/泰必捷.json
+2023-03-25 21:12:14 JSON 文件郑州永和 碱式碳酸铋片.json 已成功保存到 ./data/medician/郑州永和 碱式碳酸铋片.json
+2023-03-25 21:12:15 JSON 文件濮阳汇元 碱式碳酸铋片.json 已成功保存到 ./data/medician/濮阳汇元 碱式碳酸铋片.json
+2023-03-25 21:12:17 JSON 文件达因 甘草锌颗粒.json 已成功保存到 ./data/medician/达因 甘草锌颗粒.json
+2023-03-25 21:12:22 JSON 文件上海上药信谊药厂 双香豆素片.json 已成功保存到 ./data/medician/上海上药信谊药厂 双香豆素片.json
+2023-03-25 21:12:23 JSON 文件吉林恒金 卡巴匹林钙颗粒.json 已成功保存到 ./data/medician/吉林恒金 卡巴匹林钙颗粒.json
+2023-03-25 21:12:24 JSON 文件湘江 甘草锌胶囊.json 已成功保存到 ./data/medician/湘江 甘草锌胶囊.json
+2023-03-25 21:12:25 JSON 文件甘肃兰药 双水杨酯片.json 已成功保存到 ./data/medician/甘肃兰药 双水杨酯片.json
+2023-03-25 21:12:27 JSON 文件必与.json 已成功保存到 ./data/medician/必与.json
+2023-03-25 21:12:28 JSON 文件天诚惜尔.json 已成功保存到 ./data/medician/天诚惜尔.json
+2023-03-25 21:12:30 JSON 文件华润三九 卡马西平胶囊.json 已成功保存到 ./data/medician/华润三九 卡马西平胶囊.json
+2023-03-25 21:12:30 JSON 文件wksc_medician.json 已成功保存到 ./data/wksc_medician.json

@@ -2,16 +2,18 @@
 
 import sys,os
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/' + '..'))
-sys.stdout.encoding = 'utf-8'
+
 
 from libs.utils import save_js, get_soup
 from libs.log import Log
 
 
-from multiprocessing import Process, Queue
+from multiprocessing import Process
+from queue import Queue
 import pandas as pd
 import numpy as np
 import json, re
+logger = Log('hospital_info')
 
 
 def add_page_querystring(url, page_num):
@@ -125,7 +127,7 @@ def get_hos_info(hos_url, hos_name, hos_type, save_folder, logger):
 
 
 
-def worker(task_queue, result_queue, save_folder, logger):
+def worker(task_queue, result_queue, save_folder, logger=logger):
     while True:
         try:
             location, hos_url, hos_name, hos_type = task_queue.get()
@@ -150,9 +152,9 @@ def main(beijing_js, save_folder, logger, num_processes=4):
 
     # Start processes
     for i in range(num_processes):
-        p = Process(target=worker, args=(task_queue, result_queue, save_folder, logger))
+        p = Process(target=worker, args=(task_queue, result_queue, save_folder))
         p.daemon = True
-        p.start()
+        p.start() # TypeError: cannot pickle '_thread.lock' object
         processes.append(p)
 
     # Wait for tasks to complete
@@ -179,7 +181,7 @@ def main(beijing_js, save_folder, logger, num_processes=4):
 
 if __name__ == '__main__':
     
-    logger = Log('hospital_info')
+    
     
     if not os.path.exists('./beijing_hospital.json'):
         df = pd.read_csv('yiyuandiqu-beijing.csv')
