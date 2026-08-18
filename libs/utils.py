@@ -1,4 +1,4 @@
-import sys,os
+import sys, os
 sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/' + '..'))
 
 import requests
@@ -8,7 +8,28 @@ from bs4 import BeautifulSoup
 import json, time, random, csv, codecs
 
 
-def save_js(js, logger, save_folder = './data/', file_name = 'jibinginfo.json', exists_ok=False):
+def _noop(*args, **kwargs):
+    return None
+
+
+class _SilentLogger:
+    log_info = staticmethod(_noop)
+    log_exception = staticmethod(_noop)
+
+
+def silent_logger():
+    """A logger that accepts the Log API but does nothing (used when none provided)."""
+    return _SilentLogger()
+
+
+def save_js(js, logger=None, save_folder='./data/', file_name='jibinginfo.json', exists_ok=False):
+    """Serialize ``js`` to a UTF-8 JSON file. ``logger`` is optional.
+
+    If ``exists_ok`` is True the file is appended (multiple JSON documents on one
+    path); otherwise it is overwritten.
+    """
+    if logger is None:
+        logger = silent_logger()
 
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
@@ -17,7 +38,6 @@ def save_js(js, logger, save_folder = './data/', file_name = 'jibinginfo.json', 
     for char in ['\\', '/', ':', '*', '?', '"', '<', '>', '|']:
         file_name = file_name.replace(char, '')
 
-    
     save_path = os.path.join(save_folder, file_name)
 
     # 保存 JSON 文件
@@ -33,8 +53,11 @@ def save_js(js, logger, save_folder = './data/', file_name = 'jibinginfo.json', 
         print(f'保存 JSON 文件{file_name} 时出错：{str(e)}')
         logger.log_exception()
 
-def save_csv(data, logger, save_folder='./data/', file_name='data.csv'):
+
+def save_csv(data, logger=None, save_folder='./data/', file_name='data.csv'):
     # 如果目录不存在则创建
+    if logger is None:
+        logger = silent_logger()
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
@@ -43,7 +66,7 @@ def save_csv(data, logger, save_folder='./data/', file_name='data.csv'):
         file_name = file_name.replace(char, '')
 
     save_path = os.path.join(save_folder, file_name)
-    
+
     # 保存 CSV 文件
     try:
         with open(save_path, 'w', newline='', encoding='utf-8') as f:
@@ -55,7 +78,10 @@ def save_csv(data, logger, save_folder='./data/', file_name='data.csv'):
         print(f'保存 CSV 文件{file_name} 时出错：{str(e)}')
         logger.log_exception()
 
-def get_soup(url, logger, timeout=10):
+
+def get_soup(url, logger=None, timeout=15):
+    if logger is None:
+        logger = silent_logger()
     # 创建一个UserAgent对象，用于随机生成User-Agent头
     ua = UserAgent()
     # 定义爬取目标URL和请求头
@@ -65,17 +91,19 @@ def get_soup(url, logger, timeout=10):
 
     time.sleep(random.uniform(0.5, 1.5))
 
+    response = None
     # 发送请求，获取响应
     try:
         response = requests.get(url, headers=headers, timeout=timeout)
         response.raise_for_status()
     except (RequestException, Timeout):
-        logger.log_exception(url, 'status code is: ', response.status_code)
+        status = getattr(response, 'status_code', None)
+        logger.log_exception(f'{url} 请求失败，状态码: {status}')
         return None
     # 解析HTML文本
     try:
         soup = BeautifulSoup(response.content, 'html.parser', from_encoding='utf-8')
     except AttributeError:
-        logger.log_exception("Response content attribute error!!!")
+        logger.log_exception('Response content attribute error!')
         return None
     return soup
