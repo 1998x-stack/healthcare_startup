@@ -1,7 +1,3 @@
-import os
+from scrapers.factory import ScraperFactory, create_scraper
 
-import config
-from libs.log import Log
-from libs import utils
-
-__all__ = []
+__all__ = ['ScraperFactory', 'create_scraper']
