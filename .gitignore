@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 data/smoke_out/
+logs/medicine/
+logs/medicine
