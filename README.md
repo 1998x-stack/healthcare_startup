@@ -1,162 +1,94 @@
 # healthcare_startup
 
-## Url List
+医疗数据采集 + 基于 ChatGPT 的医疗咨询微信小程序。Python 侧负责从公开医疗站点
+抓取医院/科室/医生、药品、医患问答等数据；小程序侧 (`MedGPT/`) 提供对话式医疗
+咨询服务。
 
-1. 医学百科:http://www.a-hospital.com/w/%E9%A6%96%E9%A1%B5
-*  全国医院列表： http://www.a-hospital.com/w/%E5%85%A8%E5%9B%BD%E5%8C%BB%E9%99%A2%E5%88%97%E8%A1%A8
-*  药品百科：http://www.a-hospital.com/w/%E8%8D%AF%E5%93%81
+## 项目结构
 
-2. news: 健康界 https://www.cn-healthcare.com/
-* 医院排行榜 http://rank.cn-healthcare.com/fudan/national-general/year/2020
-
-3. 益药：http://www.xinyao.com.cn/
-4. 健康到家：药品 https://www.jianke.com/
-5. 药品网：http://y.wksc.com/
-6. 疾病大全： http://y.wksc.com/jbdq.html  http://y.wksc.com/jibing/
-7. 疾病百科：https://www.youlai.cn/dise/
-8. https://www.120ask.com/  （疾病库非常全，而且还有医生大全）
-9. 药源网：https://www.yaopinnet.com/
-
-
-## Code
-1. jibinginfo.ipynb
-* target: 获取每个科目下的疾病类型以及具体信息
-* from: http://www.xywy.com/
-* TODO: multiprocessing
-
-2. ques_ans.ipynb and ques_ans.py
-* target: 获取医生和患者的对话信息
-* from: http://www.xywy.com/
-* 后者采用多线程
-
-3. hospital_info.ipynb and hospital_info.py
-* target: 获取北京市所有医院的信息，医院里面所有医生的信息
-* from: http://www.xywy.com/
-* 后者采用多线程，暂时出现 TypeError: cannot pickle '_thread.lock' object
-
-4. medician.ipynb and medician.py
-* target: 获取各种药品的信息
-* from: http://y.wksc.com/
-* 后者采用多线程
-
-## Data
-### Input data
-1. ./yiyuandiqu-beijing.csv (which euqal to ./beijing_hospital.json)
-* it is get from http://z.xywy.com/yiyuandiqu-beijing.htm use instant scrap extension
-* it gets all hospitals from beijing
-
-2. ./dingxiang_hospital.csv (useless)
-* it is got from 用药助手, but only 20 pages
-
-
-## Output data
-1. ./data/hospital
-* 北京医院的信息，各个科室的信息，科室里面各个医生的信息
-
-2. ./data/medician
-* 各个药品的信息
-
-3. ./jibinginfo.json (which equals to ./jibinginfo_copy.json)
-* 关于疾病介绍的信息
-
-4. ./ques_ans.json (which euqals to ./ques_ans_copy.json)
-* 医生和患者问答的信息，还包括医生的简单介绍
-
-# Target
-* （可以让用户上传基础信息）建立患者信息档案，平台思维，而不是工具思维，建立护城河。 P0
-* 体检报告解读 P0
-* 反馈：数据飞轮 P0
-1. 根据自己的描述（语音、文字），找到适合自己病情的医院、科室、医生。 P1
-2. 和ChatGPT对话，回答患者的问题，比如给出问题分析，指导建议，注意事项，后续步骤。P2
-3. 答案的可靠度---如何评价。 P3
-4. 根据患者的问题，产生相应的问题供患者回答，优化相似的问题。 P2
-5. 产生相应体检报告——提高患者和医生的交流效率。 P3
-6. 后续上传X片等补充信息，帮患者提取最关心的信息。 P3
-
-# 成本
-
-## 最小可行单元的成本
-
-### 最小可行单元： 
-1. 患者信息档案（2C）==>当作和医院谈判的筹码！可以建立一个专家库，把用户的档案给医生，大大提升医生的效率（2B）
-2. 据自己的描述（语音、文字），找到适合自己病情的医院、科室、医生
-3. 和ChatGPT对话，回答患者的问题，比如给出问题分析，指导建议，注意事项，后续步骤
-4. 小程序
-* ChatGPT对话形式 + 主动提供几个问题供用户选择
-* 吸引用户策略：先根据用户给的问题，吸引用户回答几个小的问题，给出较为粗糙的答案，然后抛出让用户注册。
-* 推荐策略：先推荐三个医院，用户选择之后，用户再选择科目，最后给出三个医生，供用户选择。
-
-### 假设：流量10000 questions/天
-
-1. 服务器成本：200 ¥ /天
-2. ChatGPT接口：$0.002/1000 tokens * 4 * 400 * 10000 = 224 ¥
-3. 营销
-* 地推：专门针对医院 100元/人天 & 病友群
-* 抖音：目前抖音信息流广告的一个CPC的价格为0.2元，即用户点击了广告主投放的广告链接，抖音广告系统会收取广告主0.2元的广告费。 优势： 投资转化率高：广告被点击才付费，而点击广告的用户几乎都是潜在用户，因为感兴趣才点击。
-4. 时间成本
-
-
-# 难点
-1. 调用企业接口（卡的注册问题）
-2. 服务器翻墙
-3. company注册
-
-## 额外的功能
-1. Calendar 格式的输出
-让ChatGPT生成日程安排，苹果 Calendar格式，可以直接部署到Calendar
-```raw
-好的，我可以帮你生成一个日程安排，以下是一个示例：
-
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//Apple Inc.//Mac OS X 10.15.4//EN
-CALSCALE:GREGORIAN
-BEGIN:VEVENT
-UID:20230325T110000Z-12345@example.com
-DTSTAMP:20230325T110000Z
-DTSTART:20230326T090000Z
-DTEND:20230326T110000Z
-SUMMARY:早餐会议
-LOCATION:会议室A
-DESCRIPTION:与同事讨论新项目
-END:VEVENT
-BEGIN:VEVENT
-UID:20230325T120000Z-12346@example.com
-DTSTAMP:20230325T120000Z
-DTSTART:20230326T130000Z
-DTEND:20230326T150000Z
-SUMMARY:客户会议
-LOCATION:客户办公室
-DESCRIPTION:与客户讨论项目进展
-END:VEVENT
-BEGIN:VEVENT
-UID:20230325T130000Z-12347@example.com
-DTSTAMP:20230325T130000Z
-DTSTART:20230327T100000Z
-DTEND:20230327T120000Z
-SUMMARY:设计审查
-LOCATION:会议室B
-DESCRIPTION:审查设计方案
-END:VEVENT
-END:VCALENDAR
-
-这个日程安排包含三个事件，分别是早餐会议、客户会议和设计审查。你可以将上面的代码复制到一个文本编辑器中，并将文件保存为 .ics 文件。然后，将该文件发送到你的邮箱，并在 iPhone 或 Mac 上打开它，就可以将这些事件添加到你的日历中了。
+```
+healthcare_startup
+├── scrapers/              # Python 爬虫包（工厂模式）
+│   ├── __init__.py        # 公开 API: create_scraper, ScraperFactory
+│   ├── base.py            # BaseScraper：共享流水线 + 多进程编排
+│   ├── parsers.py         # BaseParser + Hospital/Medicine/QA 解析器 + 注册表
+│   ├── scrapers.py        # HospitalScraper / MedicineScraper / QAScraper
+│   ├── factory.py         # ScraperFactory.create(site) 工厂
+│   └── urls.py            # 各站点 URL 构建
+├── libs/
+│   ├── utils.py           # get_soup / save_js / save_csv（logger 可选）
+│   ├── log.py             # 日志系统
+│   └── tools/correct_name.py   # 乱码修复工具（--dry-run 安全模式）
+├── config.py              # 集中配置（路径、进程数、站点名）
+├── run.py                 # 命令行入口：python run.py hospital|medicine|qa
+├── MedGPT/                # 微信小程序（注册登录/问答/聊天/推荐/档案）
+├── docs/                  # 文档（见下）
+├── data/                  # 采集数据输出
+└── tests/                 # pytest（离线，使用 fixture）
 ```
 
+## 安装
 
-# TODO
-1. 将数据进行清洗，整理，导入到数据库之中（可以考虑爬取更多数据，进行整合）
-2. 了解ChatGPT上插件的流程，尤其是收费流程
-3. 小程序的设计和制作，小程序导入ChatGPT的接口进行使用（LangChain）
-
-# DeBug
-1. 乱码问题
-2. 多线程问题
-
-
-## requirements
-```raw
+```bash
 conda create -n health
 conda activate health
 pip install -r requirement.txt
 ```
+
+## 运行爬虫（工厂模式）
+
+```bash
+python run.py hospital [--processes 8]
+python run.py medicine [--processes 8] [--count 100000]
+python run.py qa        [--processes 8] [--count 1000]
+```
+
+架构说明：`ScraperFactory.create(site)` 返回一个绑定对应解析器的具体 Scraper；
+三者共享 `BaseScraper` 的流水线与 `multiprocessing.JoinableQueue` 多进程编排
+（避免 `_thread.lock` 崩溃）。具体设计见 `docs/architecture.md`。
+
+## 数据源（Url List）
+
+1. 医学百科：http://www.a-hospital.com/w/%E9%A6%96%E9%A1%B5 （全国医院列表 / 药品百科）
+2. 健康界：https://www.cn-healthcare.com/ ；医院排行榜 http://rank.cn-healthcare.com/
+3. 益药：http://www.xinyao.com.cn/
+4. 健康到家（药品）：https://www.jianke.com/
+5. 药品网：http://y.wksc.com/
+6. 疾病大全：http://y.wksc.com/jbdq.html
+7. 疾病百科：https://www.youlai.cn/dise/
+8. 120ask：https://www.120ask.com/
+9. 药源网：https://www.yaopinnet.com/
+
+## 数据
+
+| 站点(scraper) | 输出目录 | 说明 |
+| --- | --- | --- |
+| hospital | `data/hospital/` | 北京医院 + 科室 + 医生信息 |
+| medicine | `data/medician/` | 药品、功能主治、价格、说明书、相关药品 |
+| qa | `data/ques_ans/` | 医患问答 + 医生简介 |
+
+种子数据：`yiyuandiqu-beijing.csv` / `beijing_hospital.json`（北京市医院清单）。
+
+## 测试
+
+```bash
+pytest tests/ -v
+```
+
+全部离线运行（不含真实网络请求）：工厂、URL 构造、BaseScraper、解析器（基于
+fixture HTML）、CLI，以及端到端多进程流水线冒烟（`scripts/smoke_integration.py`）。
+
+## 已知问题 / 调试
+
+- **乱码**：`data/hospital/东城/北京协和医院/` 下 55 个科室目录名因旧工具多次转换
+  已无法用启发式恢复（重命名会误改数据），故保留为 `renamed-*`。请勿手动批量重命名。
+  可用 `python -m libs.tools.correct_name <target> --dry-run` 预览可恢复项。
+- 旧版顶层单文件爬虫（`hospital_info.py`/`medician.py`/`ques_ans.py`）仍保留但已**弃用**，
+  其逻辑已迁移到 `scrapers/` 包的解析器中；重复的 `_copy.py` 与根目录 `log.py` 已删除。
+  新开发统一以 `scrapers/` 包 + `run.py` 为准。
+
+## 目标 / 成本 / TODO
+
+平台思维建立患者信息档案（P0）、体检报告解读（P0）、数据飞轮（P0）；次优：帮
+患者匹配医院/科室/医生（P1），与 ChatGPT 对话问答（P2），可靠性评价（P3），体检
+报告生成（P3），X 片补充信息（P3）。成本假设与更多细节见 `MedGPT.md` / `docs/`。
