@@ -28,9 +28,9 @@ def _worker(task_queue, result_queue, parser_name, fetch, logger):
         try:
             soup = fetch(url)
             if soup is not None:
-                result = parser.parse(soup, fetch=fetch, logger=logger)
-                if result and result.get('data'):
-                    result_queue.put((key, result['data']))
+                result = parser.parse(soup, url=url, fetch=fetch, logger=logger)
+                if result:
+                    result_queue.put((key, result))
         except Exception as err:
             logger.log_exception(str(err))
         finally:
