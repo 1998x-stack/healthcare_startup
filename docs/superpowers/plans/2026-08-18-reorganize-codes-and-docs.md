@@ -228,11 +228,11 @@ def get_link(url):
 def medicine_urls(count=100000):
     return [f'http://y.wksc.com/goods/{i}.htm' for i in range(1, count + 1)]
 
-QA_PREFIX = 'http://club.xyqyw.com'
+QA_PREFIX = 'http://club.xywy.com'
 
 
-def qa_list_page_urls(count=1000):
-    return [f'http://club.xyqyw.com/list_all_{i}.htm' for i in range(1, count + 1)]
+def qa_urls(count=1000):
+    return [f'http://club.xywy.com/list_all_{i}.htm' for i in range(1, count + 1)]
 ```
 
 > Note about `replace_url_path`: the original substitution embedded the host like `pumch`; the helper above replaces the literal path segment. Keep it test-driven — if a real URL fails, fix in test, do not silently degrade.
