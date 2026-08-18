@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>healthcare_startup · 医疗数据与 ChatGPT 医疗服务</title>
+<meta name="description" content="基于公开医疗数据的采集与 ChatGPT 医疗咨询项目 — 架构、数据与文档入口。">
+<style>
+  :root{
+    --paper:#f5f3ec; --ink:#16302a; --pine:#1e5f4a; --teal:#2f8f74;
+    --brass:#b48a3c; --line:#e2ded2; --muted:#6b766f;
+    --serif:Georgia,"Songti SC","STSong","SimSun",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    --mono:"SF Mono",ui-monospace,Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.7;-webkit-font-smoothing:antialiased}
+  a{color:var(--teal);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap-max{max-width:1020px;margin:0 auto;padding:0 24px}
+
+  header.site{padding:22px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(245,243,236,.92);backdrop-filter:blur(6px);z-index:10}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px}
+  .brand .dot{width:12px;height:12px;border-radius:50%;background:var(--teal);display:inline-block}
+  .nav-links{display:flex;gap:22px;font-size:14px;margin-left:auto}
+  .nav-links a{color:var(--ink);opacity:.85}
+  .nav-links a:hover{opacity:1;text-decoration:none;color:var(--teal)}
+  @media(max-width:640px){.nav-links{display:none}}
+
+  header.hero{padding:96px 0 40px}
+  .kicker{letter-spacing:.28em;font-size:12px;color:var(--teal);text-transform:uppercase;font-weight:600}
+  h1.hero-title{font-family:var(--serif);font-weight:600;font-size:clamp(38px,6vw,64px);line-height:1.05;letter-spacing:-.01em;margin:16px 0 20px}
+  .hero-sub{font-size:clamp(16px,2.2vw,20px);color:var(--muted);max-width:640px;margin:0 0 40px}
+  .hero-ring{display:flex;gap:14px;flex-wrap:wrap;padding:22px 0}
+  .pill{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 16px;font-size:13px;color:var(--ink);opacity:.9}
+  .pill b{color:var(--teal);font-family:var(--mono)}
+
+  .statband{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin:34px 0}
+  .stat{background:#fbfaf5;padding:24px 18px;text-align:left}
+  .stat .n{font-family:var(--serif);font-size:clamp(30px,4vw,42px);font-weight:600;color:var(--ink);line-height:1}
+  .stat .n em{font-style:normal;color:var(--brass)}
+  .stat .l{margin-top:6px;font-size:13px;color:var(--muted)}
+
+  section{padding:64px 0;border-top:1px solid var(--line)}
+  .sec-label{font-size:11px;letter-spacing:.24em;color:var(--teal);font-weight:700;text-transform:uppercase}
+  h2.sect{font-family:var(--serif);font-size:clamp(26px,4vw,38px);font-weight:600;margin:8px 0 22px}
+  p.lead{color:var(--muted);max-width:60ch}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px}
+  .card h3{margin:0 0 8px;font-size:17px;font-weight:700}
+  .card p{margin:0;color:var(--muted);font-size:14px}
+  .card .tag{margin-top:12px;font-family:var(--mono);font-size:12px;color:var(--teal)}
+
+  table.tbl{width:100%;border-collapse:collapse;font-size:14px}
+  table.tbl th,table.tbl td{border:1px solid var(--line);padding:10px 12px;text-align:left}
+  table.tbl th{background:#efece2;font-weight:700}
+  code,pre{font-family:var(--mono);background:#eef0eb;border-radius:6px}
+  code{padding:1px 6px;font-size:13px}
+  pre{overflow-x:auto;padding:16px;font-size:13px;line-height:1.6;border:1px solid var(--line)}
+
+  .cta{display:inline-flex;gap:8px;align-items:center;background:var(--ink);color:#fff;border-radius:999px;padding:12px 22px;font-weight:600;font-size:15px}
+  .cta:hover{background:var(--teal);text-decoration:none;color:#fff}
+
+  footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+  footer .wrap-max{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+
+<nav class="wrap-max">
+  <div class="brand"><span class="dot"></span>healthcare_startup</div>
+  <div class="nav-links">
+    <a href="#overview">概述</a>
+    <a href="#arch">架构</a>
+    <a href="#data">数据</a>
+    <a href="#docs">文档</a>
+    <a href="#run">运行</a>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap-max">
+    <div class="kicker">医疗数据采集 × ChatGPT 医疗服务</div>
+    <h1 class="hero-title">从公开数据<br>到医疗服务入口</h1>
+    <p class="hero-sub" style="color:var(--muted);font-size:19px;max-width:54ch;margin:0 0 26px">
+      采集北京医院 / 科室 / 医生、药品与医患问答等公开医疗数据，以工厂模式沉淀为可复用管线，
+      并支撑一个基于 ChatGPT 的微信小程序医疗咨询产品。
+    </p>
+    <a class="cta" href="#data">查看数据集 →</a>
+    <div class="statband">
+      <div class="stat"><div class="n">18<em> 区县</em></div><div class="l">北京医院覆盖</div></div>
+      <div class="stat"><div class="n">223</div><div class="l">医院（种子清单）</div></div>
+      <div class="stat"><div class="n">738</div><div class="l">药品条目</div></div>
+      <div class="stat"><div class="n">55</div><div class="l">协和科室（已入库）</div></div>
+      <div class="stat"><div class="n">6.7<em> MB</em></div><div class="l">医患问答语料</div></div>
+      <div class="stat"><div class="n">19</div><div class="l">疾病分类</div></div>
+    </div>
+  </div>
+</header>
+
+<section id="overview">
+  <div class="wrap-max">
+    <div class="sec-label">Overview · 项目概述</div>
+    <h2 class="sect">两条主线：数据采集 + 智能问答</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Python 数据采集（爬虫）</h3>
+        <p>三个爬虫（医院 / 药品 / 医患问答）统一为<strong>工厂模式</strong>：<code>ScraperFactory.create(site)</code>
+           返回绑定解析器的具体 Scraper，共享一条多进程流水线。<br><br>已修复旧代码中
+           <code>cannot pickle &ldquo;_thread.lock&rdquo;</code> 的多进程崩溃。</p>
+      </div>
+      <div class="card">
+        <h3>ChatGPT 医疗小程序</h3>
+        <p>微信小程序 <code>MedGPT/</code>：注册登录、问题输入与选择、对话、医院 / 医生推荐、档案管理；
+        云函数接入 ChatGPT 回答用户问题并给出推荐策略。</p>
+      </div>
+      <div class="card">
+        <h3>平台思维</h3>
+        <p>以患者信息档案为核心建立护城河，体检报告解读 + 数据飞轮为 P0，打造数据驱动的医疗服务入口。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="arch">
+  <div class="wrap-max">
+    <div class="sec-label">Architecture · 技术架构</div>
+    <h2 class="sect">工厂模式的爬虫架构</h2>
+    <p class="lead">用一个 <code>BaseScraper</code> 承载共享流水线与多进程编排，字段抽取委托给站点无关的
+    Parser —— 新增数据站点只需注册一个新解析器。</p>
+    <div class="grid">
+      <div class="card">
+        <h3>scrapers/ 包</h3>
+        <p><code>base.py</code> BaseScraper（流水线 + JoinableQueue 多进程）<br>
+        <code>parsers.py</code> Hospital / Medicine / QA 解析器 + 注册表<br>
+        <code>scrapers.py</code> 三种具体 Scraper<br>
+        <code>factory.py</code> ScraperFactory.create(site)<br>
+        <code>urls.py</code> URL 构建</p>
+      </div>
+      <div class="card">
+        <h3>共享流水线</h3>
+        <p><code>build_tasks() → (key, url)</code> → 模块级 worker 跨进程多线程 → 聚合保存 <code>&lt;site&gt;.json</code>。
+        解析器通过注入的 <code>fetch()</code> 访问子页，测试全程离线。</p>
+      </div>
+    </div>
+    <p style="margin-top:22px"><a class="cta" href="https://github.com/1998x-stack/healthcare_startup/blob/main/docs/architecture.md" target="_blank" rel="noopener">阅读架构文档 →</a></p>
+  </div>
+</section>
+
+<section id="data">
+  <div class="wrap-max">
+    <div class="sec-label">Data · 数据集</div>
+    <h2 class="sect">采集了什么数据</h2>
+    <p class="lead">以下为已采集数据的概览，均为<strong>公开医疗站点</strong>的非结构化资料整理，并保留可追溯来源 URL。</p>
+    <table class="tbl">
+      <thead><tr><th>数据集</th><th>内容</th><th>规模</th><th>位置</th></tr></thead>
+      <tbody>
+        <tr><td>北京医院清单</td><td>区县 → 医院名称 / URL / 类型</td><td>18 区县 · 223 医院</td><td><code>beijing_hospital.json</code></td></tr>
+        <tr><td>医院 / 科室 / 医生</td><td>科室介绍 + 门诊时间 + 医生简介</td><td>协和 55 科室已入库</td><td><code>data/hospital/</code></td></tr>
+        <tr><td>药品</td><td>功能主治、参考价、说明书、相关药品</td><td>738 条</td><td><code>data/medician/</code></td></tr>
+        <tr><td>医患问答</td><td>医生与患者问答 + 医生简介</td><td>≈6.7 MB 语料</td><td><code>data/ques_ans.js</code></td></tr>
+        <tr><td>疾病分类</td><td>疾病介绍（19 类）</td><td>19 条</td><td><code>data/jibinginfo.json</code></td></tr>
+      </tbody>
+    </table>
+    <p style="margin-top:18px" class="hero-ring"><a class="cta"
+      href="https://github.com/1998x-stack/healthcare_startup/tree/main/data" target="_blank" rel="noopener">浏览仓库数据 →</a></p>
+  </div>
+</section>
+
+<section id="docs">
+  <div class="wrap-max">
+    <div class="sec-label">Docs · 文档</div>
+    <h2 class="sect">项目文档与设计</h2>
+    <div class="grid">
+      <div class="card"><h3>README</h3><p>安装、运行、数据源、测试与已知问题。</p>
+        <div class="tag"><a href="https://github.com/1998x-stack/healthcare_startup/blob/main/README.md" target="_blank" rel="noopener">README.md →</a></div></div>
+      <div class="card"><h3>架构说明</h3><p>工厂模式设计与多进程流水线（含 Mermaid 图）。</p>
+        <div class="tag"><a href="https://github.com/1998x-stack/healthcare_startup/blob/main/docs/architecture.md" target="_blank" rel="noopener">docs/architecture.md →</a></div></div>
+      <div class="card"><h3>产品文档</h3><p>ChatGPT 医疗服务的设计思路与小程序模块。</p>
+        <div class="tag"><a href="https://github.com/1998x-stack/healthcare_startup/blob/main/docs/README.md" target="_blank" rel="noopener">docs/README.md →</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="run">
+  <div class="wrap-max">
+    <div class="sec-label">Run · 运行</div>
+    <h2 class="sect">如何本地运行</h2>
+    <pre>conda create -n health
+conda activate health
+pip install -r requirement.txt
+python run.py hospital [--processes 8]   # 医院
+python run.py medicine [--processes 8] [--count 100000]
+python run.py qa      [--processes 8] [--count 1000]
+pytest tests/ -v</pre>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap-max">
+    <div><b>healthcare_startup</b> · 医疗数据采集与 ChatGPT 医疗服务</div>
+    <div>基于公开数据整理 · 仅供学习研究</div>
+  </div>
+</footer>
+
+</body>
+</html>
