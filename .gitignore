@@ -6,3 +6,8 @@ __pycache__/
 data/smoke_out/
 logs/medicine/
 logs/medicine
+.venv/
+.pytest_cache/
+data/smoke_out/
+logs/medicine/
+logs/ques_ans/
